@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'products#index'
+  root 'welcome#index'
   namespace :admin do
     resources :products
   end
@@ -20,7 +20,13 @@ Rails.application.routes.draw do
        post :checkout
     end
   end
-   resources :orders  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  
+  resources :orders do
+    member do
+      post :pay_with_alipay
+      post :pay_with_wechat
+    end
+  end  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
    namespace :account do
     resources :orders
