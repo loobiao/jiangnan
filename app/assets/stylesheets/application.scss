@@ -56,6 +56,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
 }
 
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
 blockquote, body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
     margin: 0;
     padding: 0;
@@ -188,7 +197,7 @@ html {
 
 .m-manufacturer .right .moreItems {
     margin-left: 615px;   //更多制造商
-    font-size: 14px;
+    font-size: 12px;
     display: inline-block;
 }
 
@@ -246,5 +255,436 @@ small {
 }
 
 .f-cb:after, .f-clearfix:after, .g-row:after, .m-address .line .label:after, .m-address .line:after, .m-cate>.bd .itemList:after, .m-cate>.hd .subCateList:after, .m-cate>.hd:after, .m-couponList:after, .m-donationList .m-donation:after, .m-feedbackForm .formGroup-captcha:after, .m-feedbackForm .inputGroup:after, .m-focusList:after, .m-followUs:after, .m-form-addr .w-row-addr, .m-form-addr-1:after, .m-ft1 .item:after, .m-funcTab .card-list:after, .m-funcTab .m-mini-cart:after, .m-hdAppDownload .trigger:after, .m-hrz:after, .m-itemList:after, .m-newGiftModal .info:after, .m-payMethod:after, .m-payMethods:after, .m-picList:after, .m-pop-addCard .m-addCardDialog .addCardTitle:after, .m-search:after, .m-siteEnsure:after, .m-tabs:after, .m-topicComment .commentItem:after, .m-topiclist .list:after, .u-formctr:after, .w-button .wrap:after, .w-coupon.coupon-l .inner .range:after, .w-coupon.coupon-l .inner .validity:after, .w-coupon.coupon-l .inner .value:after, .w-coupon.coupon-l .inner:after, .w-tabs:after, .w-textarea .tip:after, .w-tipMsg:after {
+    clear: both;
+}
+
+//-- 新品首发--
+
+.m-cate>.hd .right {
+    float: right; //更多新品
+}
+
+.m-newItem .right {
+    padding-top: 18px;
+}
+
+m-newItem {
+    height: 487px;
+    padding-top: 56px;
+}
+
+.m-newItem {
+    padding-top: 46px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.f-cb:after, .f-clearfix:after, .g-row:after, .m-address .line .label:after, .m-address .line:after, .m-cate>.bd .itemList:after, .m-cate>.hd .subCateList:after, .m-cate>.hd:after, .m-couponList:after, .m-donationList .m-donation:after, .m-feedbackForm .formGroup-captcha:after, .m-feedbackForm .inputGroup:after, .m-focusList:after, .m-followUs:after, .m-form-addr .w-row-addr, .m-form-addr-1:after, .m-ft1 .item:after, .m-funcTab .card-list:after, .m-funcTab .m-mini-cart:after, .m-hdAppDownload .trigger:after, .m-hrz:after, .m-itemList:after, .m-newGiftModal .info:after, .m-payMethod:after, .m-payMethods:after, .m-picList:after, .m-pop-addCard .m-addCardDialog .addCardTitle:after, .m-search:after, .m-siteEnsure:after, .m-tabs:after, .m-topicComment .commentItem:after, .m-topiclist .list:after, .u-formctr:after, .w-button .wrap:after, .w-coupon.coupon-l .inner .range:after, .w-coupon.coupon-l .inner .validity:after, .w-coupon.coupon-l .inner .value:after, .w-coupon.coupon-l .inner:after, .w-tabs:after, .w-textarea .tip:after, .w-tipMsg:after {
+    clear: both;
+}
+
+m-cate>.bd .itemList:after, .m-cate>.bd .itemList:before, .m-cate>.hd .subCateList:after, .m-cate>.hd .subCateList:before, .m-cate>.hd:after, .m-cate>.hd:before, .m-donationList .m-donation:after, .m-donationList .m-donation:before {
+    display: table;
+    content: " ";
+}
+
+.m-newItem .m-product .bd .price {
+    padding: 1px 0 9px;
+}
+
+.m-product .price {
+    color: #d4282d;
+    text-align: center;
+}
+
+.m-product .name {
+    margin-bottom: 8px;
+    height: 20px;
+    line-height: 20px;
+}
+
+a:-webkit-any-link {
+    color: #000000;   //---小标题--
+    font-size: 13px;
+    cursor: auto;
+}
+
+
+.f-text-overflow, .m-hrz .w-txticon .txt, .m-product .desc, .m-product .name, .w-linkicon .txt {
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.slick-list:focus, .slick-slider * {
+    outline: 0;
+}
+
+blockquote, body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.m-product {
+    line-height: 1;
+    text-align: center;
+    font-size: 13px;
+    width: 245px;
+    position: relative;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.slick-slider {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ol, ul {
+    list-style: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.m-newItem .m-product .img {
+    width: 265px;
+    height: 265px;
+}
+
+.m-newItem .m-cate>.bd .itemList .item {
+    height: 325px;
+    width: 250px!important;
+    outline: 0;
+}
+
+.m-cate>.bd .itemList .item {
+    float: left;
+    margin: 0 10px 50px 0;
+}
+
+.img-lazyload.white, .img-lazyloaded.white {
+    background-color: #fff;
+    color: #fff;
+}
+
+.m-product .img {
+    width: 245px;
+    height: 245px;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -o-transition: transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s,-webkit-transform 1s;
+    background-color: #f4f4f4;
+    border: 1px solid transparent;
+    color: #f4f4f4;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-list:focus, .slick-slider * {
+    outline: 0;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-list:focus, .slick-slider * {
+    outline: 0;
+}
+
+blockquote, body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.img-lazyloaded {
+    background: #f4f4f4;
+    color: #f4f4f4;
+}
+
+.img-lazyload {
+    background: url(http://yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png) center center no-repeat #f4f4f4;
+    color: #f4f4f4;
+}
+
+img {
+    vertical-align: top;
+}
+
+
+
+//---限时购 ---
+.m-flashSaleProduct .rt .itemPrice .yuan {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.m-flashSaleProduct .rt .tobuyBtn {
+    background-color: #be4141;
+    color: #fefefe;
+}
+
+.m-flashSaleProduct .rt .itemPrice .aPrice {
+    color: #be4141;
+}
+
+.m-flashSaleProduct .rt .itemPrice {
+    font-size: 14px;
+    line-height: 1;
+    vertical-align: baseline;
+}
+.m-flashSaleProduct .rt .itemName {
+    height: 26px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.m-flashSaleProduct .rt .itemDes {
+    height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #999;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.m-flashSaleProduct .rt .itemNum .numTips {
+    height: 14px;
+    margin-left: 162px; //还剩XX
+    font-size: 14px;
+    color: #999;
+    line-height: 1px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+element.style {
+    width: 135px;
+}
+.m-flashSaleProduct .rt .itemNum .numBarIn {
+    background-color: #ffe5e5;//进度条
+    height: 10px;
+}
+.m-flashSaleProduct .rt .itemNum .hasSellVolume.numBarIn {
+    min-width: 5%;
+}
+
+.m-flashSaleProduct .rt .itemNum .numBarIn {
+    background-color: #ffe5e5;
+    height: 10px;
+}
+
+m-flashSaleProduct .rt .itemNum .numBar {
+    float: left;
+    position: relative;
+    width: 152px;
+    height: 10px;
+    margin: 2px 0;
+    border: 1px solid #f2cecd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.m-flashSaleProduct .rt .itemNum {
+    padding: 14px 0 8px;
+    height: 36px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.m-flashSaleProduct .rt .w-btn {
+    display: block;
+    width: 118px;
+    height: 31px;
+    margin-top: 8px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 16px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.m-flashSale .flashSaleLt .m-countDown {
+    height: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.m-flashSale .hd .right {
+    float: right;
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.m-indexPopularItem .showContainer .m-product .bd .name {
+    margin-bottom: 6px;
+}
+
+.m-indexPopularItem .m-product .name, .m-newCates .m-product .name {
+    line-height: 20px;
+    margin-bottom: 7px;
+    height: auto;
+}
+
+.m-flashSale .hd .left {
+    float: left;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.m-flashSale .g-row {
+    padding-top: 58px;
+}
+
+.m-flashSale .hd {
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    margin-bottom: 18px;
+}
+.m-flashSale .bd {
+    height: 377px;
+    width: 100%;
+    overflow: hidden;
+}
+.m-flashSale .flashSaleLt {
+    position: relative;
+    height: 377px;
+    width: 224px;
+    padding-top: 60px;
+    float: left;
+    text-align: center;
+    background: url(http://yanxuan.nosdn.127.net/c9aeb62a3f79123d793d8c49b6698b09.jpg) center center no-repeat #fff;
+}
+.m-flashSale .flashSaleRt {
+    margin-left: 224px;
+    height: 377px;
+}
+
+.m-flashSale .flashSaleRt .m-flashSaleProduct {
+    float: left;
+    width: 433px;
+    height: 189px;
+    border: 1px solid #f0ece4;
+    border-left: none;
+}
+
+.m-flashSaleProduct {
+    float: left;
+    width: 433px;
+    height: 188px;
+    background-color: #fff;
+}
+
+.m-flashSaleProduct .lt {
+    float: left;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 3px 0;
+}
+
+.m-flashSaleProduct .rt {
+    margin-left: 180px;
+    height: 187px;
+    padding-top: -14px;
+}
+
+.m-flashSale .flashSaleRt .flashSaleItem-3, .m-flashSale .flashSaleRt .flashSaleItem-4 {
+    margin-top: -1px;
+}
+
+blockquote, body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+html.csstransitions .m-flashSale {
+    transition: all .6s;
+    opacity: 1;
+    height: 483px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+
+.m-flashSale .hd:after, .m-flashSale .hd:before, .m-newCates .m-newCate>.bd .itemList:after, .m-newCates .m-newCate>.bd .itemList:before, .m-newCates .m-newCate>.hd .subCateList:after, .m-newCates .m-newCate>.hd .subCateList:before {
+    content: " ";
+    display: table;
+}
+
+.m-expertReport .hd:after, .m-expertReports .list:after, .m-flashSale .hd:after, .m-indexPopularItem .showContainer, .m-newCates .m-newCate>.bd .itemList:after, .m-newCates .m-newCate>.hd .subCateList:after, .m-newCates .m-newCate>.hd:after, .m-topics .topics-hd:after, .slick-track:after {
     clear: both;
 }
