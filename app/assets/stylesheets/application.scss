@@ -17,3 +17,234 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+
+element.style {
+    overflow: auto;
+    margin-right: 0px;
+}
+
+.g-bd, .g-bd-list {
+    z-index: 1;
+    position: relative;
+}
+
+m-focus, .m-focusSlick.slick-slider .slick-list {
+    height: 420px;//轮播图高度
+}
+
+
+div {
+    display: block;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    height: 100%;
+}
+
+//-----品牌制造商 -----
+
+.m-cate>.hd .name {
+    float: left;
+    margin-right: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+blockquote, body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.f-disabledmask, .f-pr, body {
+    position: relative;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, .w-tabs:before {
+    -moz-box-sizing: border-box;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.m-cate>.hd {
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+body, button, input, select, textarea, code {
+    font-family: "Heiti SC","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3",verdana;
+}
+
+body {
+    min-height: 100%;
+    min-width: 1090px;
+    background-color: #fff;
+}
+
+body, button, code, input, select, textarea {
+    font-family: "Microsoft Yahei","微软雅黑",verdana;
+    color: #333;
+}
+
+.f-fz12, body {
+    font-size: 12px;
+}
+
+body, button, input, select, textarea {
+    outline: 0;
+    font: 12px/1.5 "Microsoft Yahei","微软雅黑",verdana;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    height: 100%;
+}
+
+//---- 品牌制造商区域----
+.m-manufacturer .hd .frontName {
+    padding-top: 13px;
+}
+
+.m-manufacturer {
+    margin-top: 26px;
+}
+
+.m-manufacturer .manufacturerList .manufacturer .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.m-manufacturer .manufacturerList .manufacturer {
+    width: 340px; //品牌制造商宽距
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px; //品牌制造商上下间距
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.m-manufacturer .manufacturerList .manufacturer.small .name {
+    font-size: 20px;
+    margin: 32px 0 10px 20px;
+    text-align: left;
+}
+
+.m-manufacturer .manufacturerList .manufacturer .name {
+    font-size: 24px;
+    margin: 48px 0 19px;
+    line-height: 1;
+    border-right: 0;
+    border-left: 0;
+}
+
+.m-manufacturer .manufacturerList .manufacturer .name, .m-manufacturer .manufacturerList .manufacturer .price {
+    position: relative;
+    z-index: 3;
+    color: #666;
+}
+
+.m-manufacturer .manufacturerList .manufacturer.small .price {
+    padding-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.m-manufacturer .manufacturerList .manufacturer .price {
+    font-size: 14px;
+    padding-top: 17px;
+    display: inline-block;
+    width: auto;
+    border-top: 1px solid #666;
+}
+
+.m-manufacturer .right .moreItems {
+    margin-left: 615px;   //更多制造商
+    font-size: 14px;
+    display: inline-block;
+}
+
+a:hover {
+    color: #b4a078;
+}
+
+a {
+    color: #333;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a, a:active, a:hover, video {
+    outline: 0;
+}
+
+.m-cate>.hd .frontName {
+    float: left;
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, .w-tabs:before {
+    -moz-box-sizing: border-box;
+}
+
+small {
+    font-size: smaller;
+}
+
+.m-cate>.hd {
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+//--- before after ---
+.g-row {
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.g-row:after, .g-row:before {
+    content: " ";
+    display: table;
+}
+
+.f-cb:after, .f-clearfix:after, .g-row:after, .m-address .line .label:after, .m-address .line:after, .m-cate>.bd .itemList:after, .m-cate>.hd .subCateList:after, .m-cate>.hd:after, .m-couponList:after, .m-donationList .m-donation:after, .m-feedbackForm .formGroup-captcha:after, .m-feedbackForm .inputGroup:after, .m-focusList:after, .m-followUs:after, .m-form-addr .w-row-addr, .m-form-addr-1:after, .m-ft1 .item:after, .m-funcTab .card-list:after, .m-funcTab .m-mini-cart:after, .m-hdAppDownload .trigger:after, .m-hrz:after, .m-itemList:after, .m-newGiftModal .info:after, .m-payMethod:after, .m-payMethods:after, .m-picList:after, .m-pop-addCard .m-addCardDialog .addCardTitle:after, .m-search:after, .m-siteEnsure:after, .m-tabs:after, .m-topicComment .commentItem:after, .m-topiclist .list:after, .u-formctr:after, .w-button .wrap:after, .w-coupon.coupon-l .inner .range:after, .w-coupon.coupon-l .inner .validity:after, .w-coupon.coupon-l .inner .value:after, .w-coupon.coupon-l .inner:after, .w-tabs:after, .w-textarea .tip:after, .w-tipMsg:after {
+    clear: both;
+}

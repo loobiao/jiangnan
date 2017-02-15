@@ -16,3 +16,11 @@
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require_tree .
+
+/*
+	Add to cart fly effect with jQuery. - May 05, 2013
+	(c) 2013 @ElmahdiMahmoud - fikra-masri.by
+	license: http://www.opensource.org/licenses/mit-license.php
+*/
+
+    
