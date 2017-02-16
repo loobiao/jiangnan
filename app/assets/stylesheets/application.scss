@@ -18,29 +18,24 @@
 @import "bootstrap";
 @import "font-awesome";
 
-//---logo---//
-.thumbnail {
-    
-    margin-top: 0px;
-    margin-left: 434px;
-    width: 180px;
+//----- 抬头 -----／／
+.tnav .navbar {height:-1px; margin: -5px -22px -8px -22px;}
 
-}
+//-----页脚-----／／
+footer{
+  background-color: #333;
+  text-align: center;
+  padding: 6px 0;
+  position: relative;
+   bottom: 0;
+   width: 100%;
+   z-index: 1000
 
-.m-funcTab .tab-logo {
-    position: absolute;
-    top: 50px;
-    left: 434px;
-    z-index: 2;
-    width: 180px;
-    height: 60px;
-    background-position: 0 -222px;
-    display: none;
-}
+ }
 
-img {
-    vertical-align: top;
-}
+ .footer p{
+  color: #cccccc;
+ }
 
 //-----login-----//
 
@@ -122,6 +117,7 @@ element.style {
 
 m-focus, .m-focusSlick.slick-slider .slick-list {
     height: 420px;//轮播图高度
+  
 }
 
 .f-imgCenterBanner .wrap img {
