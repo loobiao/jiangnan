@@ -22,5 +22,3 @@
 	(c) 2013 @ElmahdiMahmoud - fikra-masri.by
 	license: http://www.opensource.org/licenses/mit-license.php
 */
-
-    
