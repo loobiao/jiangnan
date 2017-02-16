@@ -18,6 +18,30 @@
 @import "bootstrap";
 @import "font-awesome";
 
+//---logo---//
+.thumbnail {
+    
+    margin-top: 0px;
+    margin-left: 434px;
+    width: 180px;
+
+}
+
+.m-funcTab .tab-logo {
+    position: absolute;
+    top: 50px;
+    left: 434px;
+    z-index: 2;
+    width: 180px;
+    height: 60px;
+    background-position: 0 -222px;
+    display: none;
+}
+
+img {
+    vertical-align: top;
+}
+
 //-----login-----//
 
 .jumbotron {
