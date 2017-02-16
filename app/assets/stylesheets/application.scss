@@ -18,6 +18,74 @@
 @import "bootstrap";
 @import "font-awesome";
 
+//-----login-----//
+
+.jumbotron {
+  background-image: url('http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=http://mmbiz.qpic.cn/mmbiz/1k4ga4KX8XwRDytFyatQ1pa4auILmqWVdbcib7h2EOpxKjvdl7cuyMYo921t1yDa8YVvQibVP2H0XTfjrJRym5yg/0');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.main{
+
+input:focus {
+     border-color: #000000;
+   }
+ }
+
+ h1.title {
+ 	font-size: 70px;
+ 	font-family: Brandon Text;
+ 	font-weight: 100;
+ }
+
+ .form-group{
+ 	margin-bottom: 0px; //--登陆框--／／
+
+ }
+
+ input,
+ input::-webkit-input-placeholder {
+     font-size: 11px;
+     padding-top: 3px;
+ }
+
+ .main-login{
+   background-color: #ffffff;
+   /* shadows and rounded borders */
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   border-radius: 2px;
+   -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+ }
+
+ .main-center{
+   color: #fff;
+   margin-top: 50px;
+   margin-bottom: 200px;
+   margin-left:410px;
+   max-width: 330px;
+   padding: 40px 40px;
+
+ }
+
+ .login-button{
+ 	margin-top: 5px;
+  color: #ffffff;
+  background-color: #b4a078;
+ }
+
+ .login-register{
+ 	font-size: 11px;
+ 	text-align: center;
+ }
+
+//----------------//
+
 element.style {
     overflow: auto;
     margin-right: 0px;
@@ -32,6 +100,11 @@ m-focus, .m-focusSlick.slick-slider .slick-list {
     height: 420px;//轮播图高度
 }
 
+.f-imgCenterBanner .wrap img {
+    position: relative;
+    left: -50%;
+    max-width: none;
+}
 
 div {
     display: block;
@@ -41,6 +114,10 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     height: 100%;
+}
+
+img {
+    vertical-align: top;
 }
 
 //-----品牌制造商 -----
@@ -449,9 +526,6 @@ blockquote, body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5
     color: #f4f4f4;
 }
 
-img {
-    vertical-align: top;
-}
 
 
 
