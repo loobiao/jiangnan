@@ -782,7 +782,6 @@ products =[
           description: "精选大豆蜡 甜蜜的空气眷恋",
           image_path: "#{Rails.root}/app/assets/images/新品15.png"},
 
-
 ]
 
 
