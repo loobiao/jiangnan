@@ -16,6 +16,15 @@ Rails.application.routes.draw do
       member do
         post :add_to_cart
       end
+      collection do
+        get :uchino
+        get :samsonite
+        get :muji
+        get :adidas
+        get :stationeries
+        get :diets
+        get :news
+      end
     end
 
   devise_for :users

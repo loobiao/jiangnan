@@ -22,6 +22,10 @@
     <%= f.input :image, as: :file %>
   </div>
 
+  <div class="group">
+    <%= f.input :category, :collection => ["uchino","samsonite", "muji", "adidas", "stationeries","diets","news"], :selected => "Uchino" %>
+  </div>
+
   <%= f.submit "Submit", data: { disable_with: "Submitting..." } %>
 
 <% end %>
