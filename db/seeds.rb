@@ -972,6 +972,11 @@ products =[
 					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品15.png"},
 
+					{title:"日式多功能颈枕 针织款",
+					description: "细腻天竺棉，亲肤舒适",
+					category: "muji",
+					image_path: "#{Rails.root}/app/assets/images/MUJI29.png"},
+
 ]
 
 
@@ -1167,6 +1172,7 @@ p189 = Product.create([title:products[188][:title],description:products[188][:de
 p190 = Product.create([title:products[189][:title],description:products[189][:description],quantity:rand(1..9) * 100 ,price:119.00,image:open(products[189][:image_path])])
 p191 = Product.create([title:products[190][:title],description:products[190][:description],quantity:rand(1..9) * 100 ,price:29.00,image:open(products[190][:image_path])])
 p192 = Product.create([title:products[191][:title],description:products[191][:description],quantity:rand(1..9) * 100 ,price:99.00,image:open(products[191][:image_path])])
+p193 = Product.create([title:products[192][:title],description:products[192][:description],quantity:rand(1..9) * 100 ,price:69.00,image:open(products[192][:image_path])])
 
 
 puts "Successfully create 192 products info."
