@@ -977,6 +977,21 @@ products =[
 					category: "muji",
 					image_path: "#{Rails.root}/app/assets/images/MUJI29.png"},
 
+					{title:"智能插线板",
+					description: "一款充电很酷的高颜值插线板",
+					category: "stationeries",
+					image_path: "#{Rails.root}/app/assets/images/文具33.png"},
+
+					{title:"德式轻量保温随手杯",
+					description: "德式经典 轻量时尚",
+					category: "stationeries",
+					image_path: "#{Rails.root}/app/assets/images/文具34.png"},
+
+					{title:"1件装 雅致皮面年历本",
+					description: "2月自填内页，计划周全",
+					category: "stationeries",
+					image_path: "#{Rails.root}/app/assets/images/文具35.jpg"},
+
 ]
 
 
@@ -1173,6 +1188,9 @@ p190 = Product.create([title:products[189][:title],description:products[189][:de
 p191 = Product.create([title:products[190][:title],description:products[190][:description],quantity:rand(1..9) * 100 ,price:29.00,image:open(products[190][:image_path])])
 p192 = Product.create([title:products[191][:title],description:products[191][:description],quantity:rand(1..9) * 100 ,price:99.00,image:open(products[191][:image_path])])
 p193 = Product.create([title:products[192][:title],description:products[192][:description],quantity:rand(1..9) * 100 ,price:69.00,image:open(products[192][:image_path])])
+p194 = Product.create([title:products[193][:title],description:products[193][:description],quantity:rand(1..9) * 100 ,price:58.00,image:open(products[193][:image_path])])
+p195 = Product.create([title:products[194][:title],description:products[194][:description],quantity:rand(1..9) * 100 ,price:109.00,image:open(products[194][:image_path])])
+p196 = Product.create([title:products[195][:title],description:products[195][:description],quantity:rand(1..9) * 100 ,price:9.90,image:open(products[195][:image_path])])
 
 
 puts "Successfully create 192 products info."
