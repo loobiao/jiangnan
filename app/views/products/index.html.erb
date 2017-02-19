@@ -1,14 +1,43 @@
-<div class="row">
-  <% @products.each do |product| %>
-    <div class="col-xs-6 col-md-3">
-      <%= link_to product_path(product) do %>
-        <% if product.image.present? %>
-          <%= image_tag(product.image.thumb.url, class: "thumbnail") %>
-        <% else %>
-          <%= image_tag("http://placehold.it/200x200&text=No Pic", class: "thumbnail") %>
-        <% end %>
-      <% end %>
-      <%= product.title %> ￥ <%= product.price %>
-    </div>
-  <% end %>
-</div>
+<div class="m-manufacturerItemListWrap" data-reactid=".0.1.0.1.1">
+                        <ul class="m-itemList m-manufacturerItemList" data-reactid=".0.1.0.1.1.0">
+                            <li class="item" data-reactid=".0.1.0.1.1.0.$1006051">
+                                <div class="m-product j-product " data-reactid=".0.1.0.1.1.0.$1006051.0">
+                                    <span data-reactid=".0.1.0.1.1.0.$1006051.0.0"></span>
+
+                                    <div class="hd" data-reactid=".0.1.0.1.1.0.$1006051.0.1">
+                                      <% @products.each do |product| %>
+                                        <div class="col-xs-6 col-md-3">
+                                          <%= link_to unicho_product_path(product) do %>
+                                            <% if product.image.present? %>
+                                              <%= image_tag(product.image.thumb.url, class: "thumbnail") %>
+                                            <% else %>
+                                              <%= image_tag("http://placehold.it/200x200&text=No Pic", class: "thumbnail") %>
+                                            <% end %>
+                                          <% end %>
+                                          <span data-reactid=".0.1.0.1.1.0.$1006051.0.1.0.1"></span>
+
+                                        </div>
+                                        <div class="bd" data-reactid=".0.1.0.1.1.0.$1006051.0.2">
+                                            <h4 class="name" data-reactid=".0.1.0.1.1.0.$1006051.0.2.0">
+                                                <span data-reactid=".0.1.0.1.1.0.$1006051.0.2.0.0"></span>
+                                                <span data-reactid=".0.1.0.1.1.0.$1006051.0.2.0.1.0"><%= product.category %></span>
+                                                    <span data-reactid=".0.1.0.1.1.0.$1006051.0.2.0.1.1"><%= product.title %></span>
+                                            </h4>
+                                            <p class="price" data-reactid=".0.1.0.1.1.0.$1006051.0.2.1">
+                                                <span data-reactid=".0.1.0.1.1.0.$1006051.0.2.1.0">
+                                                    <span data-reactid=".0.1.0.1.1.0.$1006051.0.2.1.0.0">¥</span>
+                                                    <span data-reactid=".0.1.0.1.1.0.$1006051.0.2.1.0.1"><%= product.price %></span>
+                                                </span>
+                                                <span data-reactid=".0.1.0.1.1.0.$1006051.0.2.1.1"></span>
+                                                <span data-reactid=".0.1.0.1.1.0.$1006051.0.2.1.2"></span>
+                                            </p>
+
+                                        </div>
+
+                                        <% end %>
+                                        </div>
+                                </div>
+                            </li>
+
+                    </ul>
+                </div>

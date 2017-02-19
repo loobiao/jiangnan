@@ -20,54 +20,67 @@ products =[
 
 					{title:"4条装 婴儿华夫格小方巾",
           description: "细腻华夫格，轻柔的呵护",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野1.png"},
 
           {title:"2条装 5层纱婴儿纱布浴巾",
           description: "婴幼儿首选医用级纱布",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野2.png"},
 
           {title:"3条装 婴童6层纱布童巾",
           description: "精致包边，透气柔软",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野3.png"},
 
           {title:"3条装 婴童6层纱布方巾",
           description: "可以吃的多用柔软方巾",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野4.png"},
 
           {title:"全棉进口埃及长绒棉浴巾",
           description: "加大加厚埃及棉",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野5.png"},
 
           {title:"皇室御用超柔浴巾80s",
           description: "皇室御用体验",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野6.png"},
 
           {title:"纯棉中空纱浴巾",
           description: "透气舒适中空纱",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野7.png"},
 
           {title:"超细深层清洁洗脸刷",
           description: "0.02mm刷头，85万根柔软细毛",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野8.png"},
 
           {title:"4条装 中空纱华夫格毛巾",
           description: "可以放进嘴里的安全毛巾",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野9.png"},
 
           {title:"2条装 皇室御用超柔毛巾80s",
           description: "轻柔舒适不掉毛",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野10.png"},
 
           {title:"2条装 纯棉中空纱毛巾",
           description: "轻盈透气中空纱",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野11.png"},
 
           {title:"3条装 双层提花刺绣毛巾",
           description: "卡通刺绣设计",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野12.png"},
 
           {title:"2条装 皇室御用超柔毛巾",
           description: "至柔至软",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野13.png"},
 
           {title:"2条装 埃及进口长绒棉毛巾",
@@ -76,10 +89,12 @@ products =[
 
           {title:"刺绣无捻纱布毛巾",
           description: "汤池文化の生活态度",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野15.png"},
 
           {title:"2条装 格纹无捻纱款毛巾",
           description: "纱布无捻，日式格纹",
+					category: "uchino",
           image_path: "#{Rails.root}/app/assets/images/内野16.png"},
 
           {title:"英伦温莎轻雅双肩包",

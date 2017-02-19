@@ -18,6 +18,17 @@
 @import "bootstrap";
 @import "font-awesome";
 
+
+//-----饮食（新增）-----／／
+
+.m-goodsArea {
+    padding: 0 40px;
+    position: relative;//商品边距
+}
+
+
+
+
 //----- 分类页 -----／／
 .m-product .img {
     width: 245px;
@@ -45,7 +56,6 @@
 .m-crumbs a, .m-crumbs a:hover {
     color: #333;
 }
-
 
 .m-crumbs .w-icon-arrow {
     margin: 2px 5px 0;
@@ -537,7 +547,7 @@ i, cite, em, var, address, dfn {
 element.style {
     width: 104px;
     height: 104px;
-    
+
 }
 
 .m-ftAppDownload .tip {
