@@ -7,7 +7,7 @@
                                     <div class="hd" data-reactid=".0.1.0.1.1.0.$1006051.0.1">
                                       <% @products.each do |product| %>
                                         <div class="col-xs-6 col-md-3">
-                                          <%= link_to unicho_product_path(product) do %>
+                                          <%= link_to uchino_products_path(product) do %>
                                             <% if product.image.present? %>
                                               <%= image_tag(product.image.thumb.url, class: "thumbnail") %>
                                             <% else %>

@@ -99,702 +99,877 @@ products =[
 
           {title:"英伦温莎轻雅双肩包",
           description: "经典包型，时尚轻便",
+					category: "samsonite",
           image_path: "#{Rails.root}/app/assets/images/新秀丽1.png"},
 
           {title:"26寸 纯PC拉链斜纹拉杆箱",
           description: "一年保修，30天保退",
+					category: "samsonite",
           image_path: "#{Rails.root}/app/assets/images/新秀丽2.png"},
 
           {title:"20寸 PC膜拉链登机箱",
           description: "一年保修，30天保退",
+					category: "samsonite",
           image_path: "#{Rails.root}/app/assets/images/新秀丽3.png"},
 
           {title:"20寸 纯PC“铝框”（非全铝）登机箱",
           description: "一年保修，30天保退",
+					category: "samsonite",
           image_path: "#{Rails.root}/app/assets/images/新秀丽4.png"},
 
           {title:"弹力防水潜水料MAC内胆包",
           description: "防水防震，精致耐用",
+					category: "samsonite",
           image_path: "#{Rails.root}/app/assets/images/新秀丽5.png"},
 
           {title:"英伦牛津布数码手拿包",
           description: "精美外观，贴心多功能设计",
+					category: "samsonite",
           image_path: "#{Rails.root}/app/assets/images/新秀丽6.png"},
 
           {title:"商务出行多功能双肩包",
           description: "为短途商旅贴心设计",
+					category: "samsonite",
           image_path: "#{Rails.root}/app/assets/images/新秀丽7.png"},
 
           {title:"科技感防盗双肩包",
           description: "背部拉链设计，放心出行",
+					category: "samsonite",
           image_path: "#{Rails.root}/app/assets/images/新秀丽8.png"},
 
           {title:"牛津布单肩斜挎包",
           description: "精简外形，便捷实用",
+					category: "samsonite",
           image_path: "#{Rails.root}/app/assets/images/新秀丽9.png"},
 
           {title:"英伦帆布斜挎剑桥包",
           description: "格调帆布，英伦风尚",
+					category: "samsonite",
           image_path: "#{Rails.root}/app/assets/images/新秀丽10.png"},
 
           {title:"色织华夫格空调被",
           description: "凹凸华夫格织法，舒适轻柔",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI1.png"},
 
           {title:"白鹅绒秋冬加厚羽绒被",
           description: "双层立衬工艺杜绝热量流失",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI2.png"},
 
           {title:"升级款纯棉静音白鹅羽绒被",
           description: "静音面料，加厚熟睡",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI3.png"},
 
           {title:"泡泡纱可水洗空调被",
           description: "全棉泡泡纱，柔软亲肤",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI4.png"},
 
           {title:"色织精梳AB纱格纹空调被",
           description: "加大加厚，双色精彩",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI5.png"},
 
           {title:"色织六层纱布空调被",
           description: "柔软纱布，婴童可用",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI6.png"},
 
           {title:"全棉针织条纹四件套 新款",
           description: "裸睡享受，柔软透气有弹性",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI7.png"},
 
           {title:"全棉针织纯色四件套",
           description: "日系纯色，面料轻柔舒透",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI8.png"},
 
           {title:"日式全棉针织三件套",
           description: "亲肤舒适，呵护宝贝的每一寸肌肤",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI9.png"},
 
           {title:"日式色织水洗棉四件套",
           description: "水洗做旧褶皱，亲肤柔软",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI10.png"},
 
           {title:"全棉针织条纹四件套",
           description: "裸睡必备",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI11.png"},
 
           {title:"日式纯色水洗亚麻抱枕",
           description: "水洗亚麻，透气亲肤",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI12.png"},
 
           {title:"日式色织水洗条纹抱枕",
           description: "色织面料，水洗工艺，柔软亲肤",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI13.png"},
 
           {title:"日式纯棉针织条纹抱枕",
           description: "亲肤舒适，宛如妈妈的怀抱",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI14.png"},
 
           {title:"多功能午睡枕",
           description: "放松自在的午后时光",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI15.png"},
 
           {title:"升级款记忆绵护椎腰靠",
           description: "人体工学设计，缓解腰背疼痛",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI16.png"},
 
           {title:"日式记忆绵坐垫",
           description: "活性炭记忆绵，缓解压力",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI17.png"},
 
           {title:"冷纹沙拉碗",
           description: "独特冷纹，搅拌美味",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI18.png"},
 
           {title:"玻璃保存容器",
           description: "晶莹剔透，储点睛之品",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI19.png"},
 
           {title:"强磁力 保鲜膜切割盒",
           description: "切割刀片一扯即断，磁力盒背可吸附",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI20.png"},
 
           {title:"6条装 落棉抹布",
           description: "纺织布艺，干爽净心",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI21.png"},
 
           {title:"韩式帆布电脑双肩包",
           description: "帆布双肩包 简约韩式设计",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI22.png"},
 
           {title:"日式简约纯色舒棉绒拖鞋",
           description: "日式简约风格，舒适耐穿",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI23.png"},
 
           {title:"优雅格纹羊毛拖鞋",
           description: "羊毛质地，暖心冬日",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI24.png"},
 
           {title:"暖暖绒毛包跟家居拖鞋",
           description: "包跟设计，温暖舒适",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI25.png"},
 
           {title:"日式格子全棉拖鞋",
           description: "全棉帮面，亲肤柔软",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI26.png"},
 
           {title:"丝薄AB面羊毛围巾",
           description: "羊毛的温暖，丝薄的质感",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI27.png"},
 
           {title:"2件装 男式基础打底背心",
           description: "40支新疆精梳棉，衬衫经典伴侣",
+					category: "muji",
           image_path: "#{Rails.root}/app/assets/images/MUJI28.png"},
 
           {title:"户外多功能运动水杯",
           description: "全新Tritan材质，多功能滤嘴",
+					category: "adidas",
           image_path: "#{Rails.root}/app/assets/images/Adidas1.png"},
 
           {title:"男式咖啡碳+3℃保暖内衣套装",
           description: "纳米咖啡碳透气结构，温暖+3℃",
+					category: "adidas",
           image_path: "#{Rails.root}/app/assets/images/Adidas2.png"},
 
           {title:"女式咖啡碳+3℃保暖内衣套装",
           description: "纳米咖啡碳透气结构，温暖+3℃",
+					category: "adidas",
           image_path: "#{Rails.root}/app/assets/images/Adidas3.png"},
 
           {title:"男式咖啡碳+5℃保暖内衣套装",
           description: "纳米咖啡碳透气结构，温暖+5℃",
+					category: "adidas",
           image_path: "#{Rails.root}/app/assets/images/Adidas4.png"},
 
           {title:"女式咖啡碳+5℃保暖内衣套装",
           description: "纳米咖啡碳透气结构，温暖+5℃",
+					category: "adidas",
           image_path: "#{Rails.root}/app/assets/images/Adidas5.png"},
 
           {title:"女式随心打底衫",
           description: "罗纹针织打底，秋季百搭之选",
+					category: "adidas",
           image_path: "#{Rails.root}/app/assets/images/Adidas6.png"},
 
           {title:"6双装 精梳棉双针休闲男袜",
           description: "精致双针织法，舒适不勒脚",
+					category: "adidas",
           image_path: "#{Rails.root}/app/assets/images/Adidas7.png"},
 
           {title:"6双装 皮马棉男绅士袜",
           description: "美国西部皮马棉，奢饰品牌面料首选",
+					category: "adidas",
           image_path: "#{Rails.root}/app/assets/images/Adidas8.png"},
 
           {title:"男式跃动休闲服套装",
           description: "慢跑运动搭档，外穿居家两用",
+					category: "adidas",
           image_path: "#{Rails.root}/app/assets/images/Adidas9.png"},
 
           {title:"绿茶巴旦木叶仁酥 100克",
           description: "薄片巴旦木带来舒心滋味",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食1.png"},
 
           {title:"星云酥 180克/3颗",
           description: "醇香蛋黄融入绿茶，好料层层美味",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食2.png"},
 
           {title:"妙曲奇遇记曲奇礼盒 520克",
           description: "有趣的曲奇，亲密的朋友",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食3.png"},
 
           {title:"绿茶蛋黄酥 200克/4枚入",
           description: "源自传统中式糕点的温情",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食4.png"},
 
           {title:"黄金脆千层 140克",
           description: "层层酥脆，满腹茶香",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食5.png"},
 
           {title:"茶香酥 200克",
           description: "一茶一酥 悠然自得",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食6.png"},
 
           {title:"绿茶瓜仁叶仁酥 120克",
           description: "饱满瓜仁溢满茶香",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食7.png"},
 
           {title:"绿茶巴旦木酥饼 90克",
           description: "果仁融合茶味，香脆漫溢唇齿",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食8.png"},
 
           {title:"蔓越莓曲奇 110克",
           description: "蔓越莓星星点点，嵌入酥松曲奇",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食9.png"},
 
           {title:"蓝莓曲奇 110克",
           description: "混合蓝莓果味的清香，成就甜蜜滋味",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食10.png"},
 
           {title:"台湾手工牛轧糖 250克",
           description: "地道台湾味，融于口，甜于心",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食11.png"},
 
           {title:"月见和菓子(芒果味棉花糖麻薯) 184克",
           description: "源自台湾老师傅的新手艺",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食12.png"},
 
           {title:"鲜果冻 180克（6粒入）",
           description: "真材实料真水果，满腹经纶满欢喜",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食13.png"},
 
           {title:"春日落花酥 158克",
           description: "地道川式花生酥，传承脆香中国味",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食14.png"},
 
           {title:"夹心海苔 60克",
           description: "出口欧美品质，尽享多层海滋味",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食15.png"},
 
           {title:"有机板栗仁 80克",
           description: "采撷于承德铁矿石上的有机板栗",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食16.png"},
 
           {title:"蜂蜜山楂条 135克",
           description: "山楂与蜂蜜的调和，口感酸甜温润",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食17.png"},
 
           {title:"蜂蜜山楂雪丽球 140克",
           description: "酸甜滋味，软糯可口",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食18.png"},
 
           {title:"冰晶棒棒糖 10克*5",
           description: "自然结晶，越拌越甜蜜",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食19.png"},
 
           {title:"泡泡云朵糖 80克",
           description: "入口绵软，咀嚼成胶，童趣十足",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食20.png"},
 
           {title:"蓬蓬云朵糖 80克",
           description: "松软糖丝融于舌尖，牵动心底的甜蜜",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食21.png"},
 
           {title:"风琴鱿鱼片 125克",
           description: "丝丝入扣，鲜嫩爽弹",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食22.png"},
 
           {title:"香烤鱼片 125克",
           description: "优质安康鱼经天然果木熏烤",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食23.png"},
 
           {title:"脆脆虾 20克",
           description: "整虾可食，口口香脆",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食24.png"},
 
           {title:"香烤小黄鱼 125克",
           description: "酥脆紧致，鲜美可口",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食25.png"},
 
           {title:"鱿鱼丝 100克",
           description: "新鲜鱿鱼拉松撕制，肉质柔韧有嚼劲",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食26.png"},
 
           {title:"猪肉脯 150克",
           description: "猪后腿肉精制，不添加防腐剂",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食27.png"},
 
           {title:"球形爆米花 150克",
           description: "精选玉米，颗颗尽是甜蜜",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食28.png"},
 
           {title:"冻干水果礼盒 185克",
           description: "六种冻干水果，缤纷你的生活",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食29.png"},
 
           {title:"冻干榴莲脆 40克",
           description: "泰国进口的金枕头榴莲，浓香软滑",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食30.png"},
 
           {title:"综合果蔬脆 100克",
           description: "6种果蔬酸甜荟萃，色香味俱全",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食31.png"},
 
           {title:"冻干混合水果脆 25克",
           description: "唇齿之间 尽是浓浓果香",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食32.png"},
 
           {title:"薯条脆 65克",
           description: "美味不油腻，营养更健康",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食33.png"},
 
           {title:"综合水果脆片 100克",
           description: "缤纷水果，尽是清脆",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食34.png"},
 
           {title:"综合菇菜脆片 100克",
           description: "有菇有菜，颜值营养两不误",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食35.png"},
 
           {title:"冻干苹果脆 30克",
           description: "冻干红富士，香脆苹果味",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食36.png"},
 
           {title:"冻干芒果脆 20克",
           description: "美味芒果，增添清晨活力",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食37.png"},
 
           {title:"冻干黄桃脆 30克",
           description: "酸甜黄桃，激发味蕾",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食38.png"},
 
           {title:"冻干香蕉脆 40克",
           description: "-30°C真空冻干，水果新吃法",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食39.png"},
 
           {title:"香菇脆片 90克",
           description: "高蛋白、低脂肪，食之浓香沁脾",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食40.png"},
 
           {title:"黄秋葵脆片 70克",
           description: "独特粘液，脆片滑而不腻",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食41.png"},
 
           {title:"小香菇脆 70克",
           description: "真空低温脱水，留住原色原香",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食42.png"},
 
           {title:"敏豆脆 45克",
           description: "酥脆敏豆真空脱水，留下自然苍翠色",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食43.png"},
 
           {title:"绿鸡心葡萄干 135克",
           description: "优选新疆好果，软糯壮实，甜蜜鲜醇",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食44.png"},
 
           {title:"黑加仑葡萄干 135克",
           description: "晾房阴干锁住葡萄干天然水分",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食45.png"},
 
           {title:"蓝莓果干 80克",
           description: "清爽蓝莓，味觉盛宴",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食46.png"},
 
           {title:"芒果干 118克",
           description: "海南新鲜澳芒，肉质细腻",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食47.png"},
 
           {title:"无核西梅 100克",
           description: "阳光西梅，品尝加州自然美味",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食48.png"},
 
           {title:"酵素梅 100克",
           description: "入口酸甜，悠悠梅香",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食49.png"},
 
           {title:"萝卜脆 70克",
           description: "萝卜汁多且甜，脆片清爽可口",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食50.png"},
 
           {title:"蔬菜脆 70克",
           description: "8种蔬菜汇聚成营养盛宴",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食51.png"},
 
           {title:"苹果脆片 100克",
           description: "酸甜有度，最是苹果",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食52.png"},
 
           {title:"南瓜脆片 100克",
           description: "金黄南瓜，原色原味",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食53.png"},
 
           {title:"红枣脆 100克",
           description: "金丝红枣，养心悦色",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食54.png"},
 
           {title:"冻干草莓粒 30克",
           description: "完整颗粒，有颜有营养",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食55.png"},
 
           {title:"混合果仁 210克",
           description: "随身能量包，生活添动力",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食56.png"},
 
           {title:"山核桃仁(原香味) 142克",
           description: "临安特产 颗颗原味 粒粒香醇",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食57.png"},
 
           {title:"原香味巴旦木 168克",
           description: "颗粒饱满 酥脆爽口",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食58.png"},
 
           {title:"盐焗腰果 158克",
           description: "果仁饱满 口感酥脆",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食59.png"},
 
           {title:"手剥山核桃(铁锅水煮) 128克",
           description: "临安特产 地道江南味",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食60.png"},
 
           {title:"手剥山核桃(奶油味) 128克",
           description: "临安特产 奶香浓郁",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食61.png"},
 
           {title:"蛋壳山核桃(原香味) 128克",
           description: "临安特产 好吃易剥",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食62.png"},
 
           {title:"碧根果 148克",
           description: "果粒饱满 肉质爽脆",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食63.png"},
 
           {title:"阳光葵花籽 110克",
           description: "好瓜子，敢真敢原味",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食64.png"},
 
           {title:"纯臻南瓜子 160克",
           description: "滴之恩，凝于一籽一仁",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食65.png"},
 
           {title:"黑南瓜子 128克",
           description: "香酥清新，自然黑，无染色",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食66.png"},
 
           {title:"黄金曼特宁咖啡豆 227克",
           description: "浓郁饱满的奶油、牧草、焦糖香气",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食67.png"},
 
           {title:"黄金曼特宁挂耳咖啡 10克*10包",
           description: "浓郁饱满的奶油、牧草、焦糖香气",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食68.png"},
 
           {title:"哥伦比亚蕙兰挂耳咖啡 10克*10包",
           description: "多层次丰富口感，被誉为绿色的金子",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食69.png"},
 
           {title:"冻干蜂蜜柠檬片 60克",
           description: "柠檬搭配蜂蜜，清新又润心",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食70.png"},
 
           {title:"胎菊 50克",
           description: "正宗杭白菊花蕾，馨香扑鼻",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食71.png"},
 
           {title:"大麦茶 220克",
           description: "谷香甘逸，醇厚平和",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食72.png"},
 
           {title:"无糖藕粉 20克*15袋",
           description: "老藕现磨，粉质细腻",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食73.png"},
 
           {title:"桂花莲子藕粉 30克*12袋",
           description: "桂花的秋意撒入藕羹中，浓稠而香甜",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食74.png"},
 
           {title:"水果谷物营养燕麦片 800克",
           description: "十种水果谷物，美味营养好搭配",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食75.png"},
 
           {title:"有机燕麦片 800克",
           description: "英国进口有机燕麦片，330年工艺坚守",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食76.png"},
 
           {title:"冻干银耳汤 15克*10包",
           description: "冲泡即食 美味尽享",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食77.png"},
 
           {title:"蜜韵单丛 6克*20袋",
           description: "潮州单丛，山韵蜜味，温润自从心间始",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食78.png"},
 
           {title:"正山小种·红茶 20袋*5克",
           description: "汤色红艳，香气高长",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食79.png"},
 
           {title:"太平猴魁 50克",
           description: "精选核心产区茶叶，兰香高爽",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食80.png"},
 
           {title:"明前特级西湖龙井 100克",
           description: "2016年新茶，明前采摘特级茶",
+					category: "diets",
           image_path: "#{Rails.root}/app/assets/images/饮食81.png"},
 
           {title:"4个装 手撕隐形胶带",
           description: "隐形设计，修补美观",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具1.png"},
 
           {title:"8个装 8色 马卡龙和纸胶带",
           description: "多彩色泽，绚烂生活",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具2.png"},
 
           {title:"木韵檀香黄铜笔",
           description: "缅甸黑檀与黄铜的结合，彰显贵气",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具3.png"},
 
           {title:"3支装 直杆三角中性笔",
           description: "三角笔身，柔中带刚",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具4.png"},
 
           {title:"磨砂杆直杆中性笔",
           description: "柔韧笔杆，三色之选",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具5.png"},
 
           {title:"3支装 按动式三角中油笔",
           description: "中油笔芯，流畅体验",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具6.png"},
 
           {title:"5支装 半透明杆按动式中油笔",
           description: "简约素雅，卓尔不群",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具7.png"},
 
           {title:"3支装 简约雾杆荧光笔",
           description: "清新三色，清爽记录",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具8.png"},
 
           {title:"金属亚光宝珠笔",
           description: "质感笔身，顺滑笔尖",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具9.png"},
 
           {title:"暗格简约钢笔",
           description: "致简设计，体验流畅书写",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具10.png"},
 
           {title:"金属亚光钢笔",
           description: "铱金暗尖，低调沉稳",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具11.png"},
 
           {title:"6支装 碳素钢笔墨囊",
           description: "1.5克重量，15秒替换",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具12.png"},
 
           {title:"1件装 雅致皮面年历本",
           description: "12月自填内页，计划周全",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具13.png"},
 
           {title:"再生纸胶装拍纸本",
           description: "横线内页，50张轻便可撕",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具14.png"},
 
           {title:"再生纸线装笔记本",
           description: "传统线装，回归再生",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具15.png"},
 
           {title:"再生纸双环笔记本",
           description: "黑色环扣，80张丰富内页",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具16.png"},
 
           {title:"硬底易撕便签本",
           description: "硬板底面，便携易撕",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具17.png"},
 
           {title:"4件装 线装便携软面笔记本",
           description: "牢固线装，4种内芯，小巧便携",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具18.png"},
 
           {title:"皮面笔记本",
           description: "充皮封面，中文行距",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具19.png"},
 
           {title:"铝制名片盒",
           description: "轻薄铝制，简约商务",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具20.png"},
 
           {title:"不锈钢名片盒",
           description: "轻便耐用，简约商务",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具21.png"},
 
           {title:"单层磨砂笔盒",
           description: "透明磨砂，简单收纳",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具22.png"},
 
           {title:"双开磨砂笔盒",
           description: "磨砂质感，双开搭扣设计",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具23.png"},
 
           {title:"单栏文件栏",
           description: "简式竖立收纳，pp材质透明磨砂",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具24.png"},
 
           {title:"弹盖收纳箱",
           description: "按压开关，大容量文具收纳",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具25.png"},
 
           {title:"四层抽屉式桌面文件柜",
           description: "独立小隔间，收纳更灵活",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具26.png"},
 
           {title:"变色固体胶",
           description: "自动消色，大胆操作不留痕迹",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具27.png"},
 
           {title:"可移固体胶",
           description: "可反复粘贴，一胶多用途",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具28.png"},
 
           {title:"环保手工用白胶",
           description: "强力粘合，无毒环保",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具29.png"},
 
           {title:"不褶皱液体胶",
           description: "纸面不起皱，桌面更干净",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具30.png"},
 
           {title:"1支装 星空原色水晶笔",
           description: "140颗原色水晶，璀璨如星",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具31.png"},
 
           {title:"透视网格拉链袋",
           description: "网格可视，轻松收纳",
+					category: "stationeries",
           image_path: "#{Rails.root}/app/assets/images/文具32.png"},
 
           {title:"磨砂二折便携镜",
           description: "外出便携 美在当下",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品1.png"},
 
           {title:"智能插线板2件装",
           description: "高颜值插线板2件组合",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品2.png"},
 
           {title:"磨砂三折便携镜",
           description: "随身携带 与美同行",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品3.png"},
 
           {title:"儿童3D纳米薄膜口罩3只装",
           description: "防护抗霾，可爱花色",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品4.png"},
 
           {title:"经典轻奢抽绳水桶包",
           description: "轻简水桶包，时尚风向标",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品5.png"},
 
           {title:"智能插线板3件装",
           description: "高颜值插线板3件组合",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品6.png"},
 
           {title:"经典格纹丝毛混纺围巾",
           description: "澳毛真丝混纺，围巾披肩两用",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品7.png"},
 
           {title:"擦丝器、擦片器",
           description: "防滑橡塑脚垫，加长版式",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品8.png"},
 
           {title:"电动胡椒研磨器",
           description: "90°重力感应，无开关全自动研磨",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品9.png"},
 
           {title:"恒温可调节电热水壶",
           description: "英国进口strix温控器，延时煮沸3-6秒",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品10.png"},
 
           {title:"3面环形指甲抛光棉",
           description: "3种粗细 打磨护甲",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品11.png"},
 
           {title:"罗马假日 永生花",
           description: "神秘黑色，爱情的深邃吸引",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品12.png"},
 
           {title:"2条装 黑凤梨情侣围裙",
           description: "说是围裙，亦是爱情",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品13.png"},
 
           {title:"丝巾架 5格",
           description: "分类收纳，简约美观",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品14.png"},
 
           {title:"黑凤梨香薰蜡烛礼盒",
           description: "精选大豆蜡 甜蜜的空气眷恋",
+					category: "news",
           image_path: "#{Rails.root}/app/assets/images/新品15.png"},
 
 ]
