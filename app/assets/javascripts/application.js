@@ -17,6 +17,7 @@
 //= require bootstrap/dropdown
 //= require bootstrap/modal
 //= require_tree .
+//= require vue
 
 /*
 	Add to cart fly effect with jQuery. - May 05, 2013
