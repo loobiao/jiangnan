@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :comments
   root 'welcome#index'
   namespace :admin do
     resources :products
@@ -25,7 +26,9 @@ Rails.application.routes.draw do
         get :diets
         get :news
       end
+      resources :posts
     end
+
 
   devise_for :users
   root 'welcome#index'

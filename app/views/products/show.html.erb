@@ -11,14 +11,14 @@
   <%= @product.category %>
   <%= @product.quantity %>
     <%= @product.price %>
-    <%= @product.image %>
+
     <div class="g-bd">
         <div class="m-crumbs">
             <a href="/">首页</a>
             <span class="w-icon w-icon-arrow"></span>
-            <a href="/item/list?categoryId=1013001">洗护</a>
+            <a href="/item/list?categoryId=1013001"><%= @product.category %></a>
             <span class="w-icon w-icon-arrow"></span>
-            <a href="/item/list?categoryId=1013001&amp;subCategoryId=1008001">毛巾</a>
+            <a href="/item/list?categoryId=1013001&amp;subCategoryId=1008001"><%= @product.title %></a>
             <span class="w-icon w-icon-arrow"></span>
             <span class="z-cur"><%= @product.title %></span>
         </div>
@@ -28,7 +28,7 @@
             <div class="detail-top">
                 <div class="slide">
                     <div class="view">
-                        <img class="j-thumb" src="http://yanxuan.nosdn.127.net/989ba3a0431fdfa8e58d1832f89fe295.jpg?imageView&amp;quality=90&amp;thumbnail=430x430" alt="">
+                        <img class="j-thumb" src="<%= @product.image %>" alt="">
                     </div>
                     <div class="list j-sthumbs">
                         <ul>
@@ -82,14 +82,14 @@
                             <span class="label label-1">售价</span>
                             <span class="rp">
                                 <span class="rmb">¥</span>
-                                <span class="num j-retail-price">59.00</span>
+                                <span class="num j-retail-price"><%= @product.price %></span>
                             </span>
                         </div>
                         <!-- 正常价格end -->
                         <div class="field sale">
                             <span class="label label-2">促销</span>
                             <a class="firstLink j-huodong" data-id="1055026" href="http://you.163.com/act/pub/xFxsJH9ceZ.html?_stat_area=huodong_0&amp;_stat_referer=item" target="_blank">
-                                <div class="activityType"><%= @product.category %></div>领590元礼包，满¥149还赠好礼
+                                <div class="activityType">职业派</div>领590元礼包，满¥149还赠好礼
                             </a>
                             <div style="clear:both"></div>
                         </div>
@@ -399,12 +399,38 @@
                                 <a href="javascript:void(0);">详情</a>
                             </li>
                             <li class="item j-nav-item" data-con="j-nav-comment">
-                                <a href="javascript:void(0);">评价<span class="num">（779）</span>
-                                </a>
+                                <%= link_to("评论", new_product_post_path(@product), class: "btn btn-default pull-right")%>
                             </li>
                             <li class="bg"></li>
                         </ul>
                     </div>
+
+                    <table class="table">
+   <thead>
+     <tr>
+       <th>评价详情</th>
+       <th>发表者</th>
+       <th>发表时间</th>
+     </tr>
+   </thead>
+   <tbody>
+     <% @posts.each do |post| %>
+       <tr>
+         <td><%= post.content %></td>
+         <td> <%if post.user.avatar.present?%>
+               <%= image_tag(post.user.avatar.url(:thumb), class: "round-image-25") %>
+               <%= post.user.nickname%>
+            <% else %>
+           <%= post.user.email %>
+           <% end %>
+         </td>
+
+         <td><%= post.created_at %></td>
+       </tr>
+     <% end %>
+   </tbody>
+ </table>
+
                     <div class="detail-html j-nav-con j-nav-html">
                         <ul id="j-attrList" class="m-attrList" style="visibility: visible;">
                             <li class="item j-item">
@@ -413,7 +439,7 @@
                             </li>
                             <li class="item j-item">
                                 <span class="name">颜色</span>
-                                <span class="value">蓝色+红色</span>
+                                <span class="value">蓝色红色</span>
                             </li>
                             <li class="item j-item">
                                 <span class="name">材料</span>
