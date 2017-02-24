@@ -16,7 +16,7 @@ u.password_confirmation = "123456"   # 最少要六码
 u.is_admin = true
 u.save
 
-products =[
+products = [
 
 					{title:"4条装 婴儿华夫格小方巾",
           description: "细腻华夫格，轻柔的呵护",
@@ -335,7 +335,8 @@ products =[
           {title:"绿茶巴旦木叶仁酥 100克",
           description: "薄片巴旦木带来舒心滋味",
 					category: "diets",
-          image_path: "#{Rails.root}/app/assets/images/饮食1.png"},
+          image_path: ["#{Rails.root}/app/assets/images/饮食1-1.png", "#{Rails.root}/app/assets/images/饮食1-2.jpg"]
+				},
 
           {title:"星云酥 180克/3颗",
           description: "醇香蛋黄融入绿茶，好料层层美味",
