@@ -1023,7 +1023,116 @@ element.style {
     padding: 0 40px;
     position: relative;//商品边距
 }
+.m-goodsArea {
+    padding: 0 40px;
+    position: relative;
+    background-color: #fff;
+}
 
+.m-content, .m-focusSlick, .m-goodsArea, .slick-list {
+    overflow: hidden;
+}
+
+.m-Level2Category {
+    padding-top: 30px;
+}
+
+.m-Level2Category>.hd {
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.m-itemList-level2Category {
+    margin-top: 25px;
+}
+
+.m-itemList:after, .m-itemList:before {
+    content: " ";
+    display: table;
+}
+
+.f-clearfix:after, .f-clearfix:before {
+    content: " ";
+    display: table;
+}
+
+.m-Level2Category>.hd .icon {
+    margin-right: 10px;
+}
+
+.w-icon-44 {
+    width: 44px;
+    height: 44px;
+}
+
+.m-Level2Category>.hd .desc {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.5;
+}
+
+.m-sortbar .category .categoryItem {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.m-sortbar .sorts .sort {
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.m-sortbar .active {
+    color: #b4a078;
+}
+
+.m-sortbar .sorts {
+    overflow: hidden;
+    float: right;
+}
+
+.m-sortbar .sorts .sort.sort-time {
+    margin-right: 0;
+    display: table-cell;
+}
+
+.m-sortbar .sorts .sort.sort-time .icon-normal-down-checked, .m-sortbar .sorts .sort.sort-time .icon-normal-down-unchecked {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 9px;
+    margin-top: -3px;
+}
+.m-crumbs {
+    font-size: 12px;
+    color: #333;
+    line-height: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.m-Level2Category>.hd .name {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.m-itemList .item {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.m-sortbar {
+    height: 36px;
+    margin-top: 30px;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+}
+
+.m-Level2Category>.hd .title {
+    display: inline-block;
+    margin-bottom: 10px;
+}
 
 
 
