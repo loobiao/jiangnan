@@ -1,4 +1,5 @@
 class Product < ApplicationRecord
-  mount_uploader :image, ImageUploader
+  serialize :image
+  mount_uploaders :image, ImageUploader
   has_many :posts
 end

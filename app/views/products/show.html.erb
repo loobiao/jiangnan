@@ -4,10 +4,10 @@
 
 <hr>
 
+
+
+
 <div class="g-detail">
-
-
-
     <div class="g-bd">
         <div class="m-crumbs">
             <a href="/">首页</a>
@@ -24,25 +24,28 @@
             <div class="detail-top">
                 <div class="slide">
                     <div class="view">
-                        <img class="j-thumb" src="<%= @product.image %>" alt="">
+
+                      <%= image_tag(@product.image[0].url) %>
+
                     </div>
                     <div class="list j-sthumbs">
                         <ul>
                             <li class="">
-                                <a href="javascript:;"><img src="http://yanxuan.nosdn.127.net/262b78c39bcd9921948a3fbd9f54a447.png?imageView&amp;thumbnail=78x78&amp;quality=95" alt="鼠标悬停切换"></a>
+                                <a href="javascript:;"><%= image_tag(@product.image[0].url) %> alt="鼠标悬停切换"></a>
                             </li>
                             <li class="">
-                                <a href="javascript:;"><img src="http://yanxuan.nosdn.127.net/6841a6a9c555a98a131a2d963935ed7a.jpg?imageView&amp;thumbnail=78x78&amp;quality=95" alt="鼠标悬停切换"></a>
-                            </li>
-                            <li class="z-active">
-                                <a href="javascript:;"><img src="http://yanxuan.nosdn.127.net/989ba3a0431fdfa8e58d1832f89fe295.jpg?imageView&amp;thumbnail=78x78&amp;quality=95" alt="鼠标悬停切换"></a>
+                                <a href="javascript:;"><%= image_tag(@product.image[1].url) %> alt="鼠标悬停切换"></a>
                             </li>
                             <li class="">
-                                <a href="javascript:;"><img src="http://yanxuan.nosdn.127.net/f5b7889bd7439dafefef10e459acd46f.jpg?imageView&amp;thumbnail=78x78&amp;quality=95" alt="鼠标悬停切换"></a>
+                                <a href="javascript:;"><%= image_tag(@product.image[3].url) %> alt="鼠标悬停切换"></a>
                             </li>
                             <li class="">
-                                <a href="javascript:;"><img src="http://yanxuan.nosdn.127.net/a2256be348e3b4958ccc8f9631f32e17.jpg?imageView&amp;thumbnail=78x78&amp;quality=95" alt="鼠标悬停切换"></a>
+                                <a href="javascript:;"><%= image_tag(@product.image[6].url) %> alt="鼠标悬停切换"></a>
                             </li>
+                            <li class="">
+                                <a href="javascript:;"><%= image_tag(@product.image[7].url) %> alt="鼠标悬停切换"></a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -50,7 +53,7 @@
                     <div class="intro">
                         <div class="name"><%= @product.title %></div>
                         <div class="tagList">
-                            <a class="item" href="/item/manufacturer?tagId=1001002">内野制造商</a>
+                            <a class="item" href="/item/manufacturer?tagId=1001002">春季特惠</a>
                         </div>
                         <div class="desc"><%= @product.description %></div>
                     </div>
@@ -84,8 +87,8 @@
                         <!-- 正常价格end -->
                         <div class="field sale">
                             <span class="label label-2">促销</span>
-                            <a class="firstLink j-huodong" data-id="1055026" href="http://you.163.com/act/pub/xFxsJH9ceZ.html?_stat_area=huodong_0&amp;_stat_referer=item" target="_blank">
-                                <div class="activityType">职业派</div>领590元礼包，满¥149还赠好礼
+                            <a class="firstLink j-huodong" data-id="1055026" href="dites" target="_blank">
+                                <div class="activityType">春季</div>领590元礼包，满¥149还赠好礼
                             </a>
                             <div style="clear:both"></div>
                         </div>
@@ -101,7 +104,7 @@
                         </div>
                     </div>
                     <!-- 价格信息end -->
-                    <div class="j-param">
+                  <!--     <div class="j-param">
                         <div class="param u-formctr">
                             <span class="name name-2">尺寸</span>
                             <div class="field field-1">
@@ -117,35 +120,21 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div>  -->
                     <div class="tips j-tips f-hide"></div>
                     <div class="number u-formctr">
                         <span class="name name-1">数量</span>
-                        <div class="field">
-                            <div class="j-numcount f-ib">
-                                <div class="u-selnum">
-                                    <span class="j-reduce less z-dis">
-                                        <i class="hx"></i>
-                                    </span>
-                                    <input class="j-input" type="text">
-                                    <span class="j-add more">
-                                        <i class="hx"></i>
-                                        <i class="sx"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <span class="j-detail-stock stock" style="display: none;">库存紧张</span>
-                        </div>
+                         <span class="name name-1"> <%= @product.quantity %></span>
                     </div>
                     <div class="btns">
-                        <a class="btn w-button w-button-ghost w-button-xl j-btn-directBuy" href="javascript:void(0);">
-                            <span>立即购买</span>
-                        </a>
-                        <a class="btn w-button w-button-primary w-button-xl j-btn-addcart" href="javascript:void(0);">
+
+                            <span> <%= link_to("立即购买", add_to_cart_product_path(@product), method: :post,
+                    class: "btn btn-lg btn-default") %></span>
                             <span>
-                                <i class="w-icon icon-cart-detail"></i>加入购物车</span>
-                        </a>
-                        <div class="w-collectZone nopCollect j-collectBtn" title="点击收藏">
+                                <%= link_to("加入购物车", add_to_cart_product_path(@product), method: :post,
+                    class: "btn btn-lg btn-default") %></span>
+
+                      <div class="w-collectZone nopCollect j-collectBtn" title="点击收藏">
                             <div class="zone-1">
                                 <div class="top top-1">
                                     <span class="w-icon-normal icon-normal-collectEpt"></span>
@@ -167,7 +156,7 @@
                 </div>
             </div>
             <!-- 推荐商品 -->
-            <div class="recommend-container">
+          <!--  <div class="recommend-container">
                 <div class="bd">
                     <div class="m-recommend">
                         <header>
@@ -385,30 +374,25 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>  -->
             <!-- 推荐商品end -->
             <div class="bd" style="margin-top: -20px;">
                 <div class="left">
                     <div class="detail-nav j-nav-tab">
+
                         <ul class="nav">
                             <li class="item item-active j-nav-item" data-con="j-nav-html">
                                 <a href="javascript:void(0);">详情</a>
                             </li>
                             <li class="item j-nav-item" data-con="j-nav-comment">
-                                <%= link_to("评论", new_product_post_path(@product), class: "btn btn-default pull-right")%>
+                                <%= link_to("评论", new_product_post_path(@product), class: "")%><a href="javascript:void(0);"></a>
                             </li>
                             <li class="bg"></li>
                         </ul>
                     </div>
 
                     <table class="table">
-   <thead>
-     <tr>
-       <th>评价详情</th>
-       <th>发表者</th>
-       <th>发表时间</th>
-     </tr>
-   </thead>
+
    <tbody>
      <% @posts.each do |post| %>
        <tr>
@@ -430,224 +414,26 @@
                     <div class="detail-html j-nav-con j-nav-html">
                         <ul id="j-attrList" class="m-attrList" style="visibility: visible;">
                             <li class="item j-item">
-                                <span class="name">尺寸</span>
-                                <span class="value">34*78cm</span>
+                                <span class="name">品名</span>
+                                <span class="value"><%= @product.title %></span>
                             </li>
                             <li class="item j-item">
-                                <span class="name">颜色</span>
-                                <span class="value">蓝色红色</span>
+                                <span class="name">保质期</span>
+                                <span class="value">120天</span>
                             </li>
                             <li class="item j-item">
-                                <span class="name">材料</span>
-                                <span class="value">100%棉</span>
-                            </li>
-                            <li class="item j-item">
-                                <span class="name">重量</span>
-                                <span class="value">79*2g</span>
+                                <span class="name">贮存条件</span>
+                                <span class="value">请置于阴凉干燥处</span>
                             </li>
                             <li class="item j-item" style="width: 100%; border-bottom: none;">
                                 <span class="name">温馨提示</span>
-                                <span class="value">1.特殊无捻工艺原因，初次使用时可能会有少许掉毛现象，用清水漂洗即可去除，非产品质量问题。<br>2.由于水中含有钙、镁等矿物质，毛巾水洗之后会稍微变硬。定期在含碱/盐/醋的水中蒸煮、浸泡，可使毛巾再次柔软。<br>3、毛圈无捻工艺，使其本身触感柔软纤长，适合干擦。<br>4.纱布随使用次数增加，会越洗越柔软，初次使用若手感不佳可下水洗涤后再使用。</span>
+                                <span class="value">1、本品除明确质量问题外不支持30天无忧退货<br>2、请置于阴凉避光、通风、干燥处<br>3、本产品不人工添加防腐剂，赏味期短，拆封后请尽快食用<br>4、本产品不人工添加加固剂，若天气炎热，茶酥偶有融化，不影响食用</span>
                             </li>
                         </ul>
                         <div class="j-itemDetail">
-
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/3ecd1910792334821d49685a6e470020.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/3ecd1910792334821d49685a6e470020.jpg"
-                                _src="http://yanxuan.nosdn.127.net/3ecd1910792334821d49685a6e470020.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/7f3a873eed6fd5ea7f0d6ecb8904208c.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/7f3a873eed6fd5ea7f0d6ecb8904208c.jpg"
-                                _src="http://yanxuan.nosdn.127.net/7f3a873eed6fd5ea7f0d6ecb8904208c.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/8a33208ba3e8feb0c0b8ed0ff88288f4.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/8a33208ba3e8feb0c0b8ed0ff88288f4.jpg"
-                                _src="http://yanxuan.nosdn.127.net/8a33208ba3e8feb0c0b8ed0ff88288f4.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/80acb362d432719e7b0bd87d500c603e.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/80acb362d432719e7b0bd87d500c603e.jpg"
-                                _src="http://yanxuan.nosdn.127.net/80acb362d432719e7b0bd87d500c603e.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/5b2da4e1ff5cc50f0e68016600395b04.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/5b2da4e1ff5cc50f0e68016600395b04.jpg"
-                                _src="http://yanxuan.nosdn.127.net/5b2da4e1ff5cc50f0e68016600395b04.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/064294413baa073e9d0df573c817bab6.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/064294413baa073e9d0df573c817bab6.jpg"
-                                _src="http://yanxuan.nosdn.127.net/064294413baa073e9d0df573c817bab6.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/93311f70f840965d72a87da0b4f75ca0.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/93311f70f840965d72a87da0b4f75ca0.jpg"
-                                _src="http://yanxuan.nosdn.127.net/93311f70f840965d72a87da0b4f75ca0.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/dfeda35fe5c6b6c1bb1bfd377cb6baca.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/dfeda35fe5c6b6c1bb1bfd377cb6baca.jpg"
-                                _src="http://yanxuan.nosdn.127.net/dfeda35fe5c6b6c1bb1bfd377cb6baca.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/44c013c0409bc0360c91d5cf309a7cf3.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/44c013c0409bc0360c91d5cf309a7cf3.jpg"
-                                _src="http://yanxuan.nosdn.127.net/44c013c0409bc0360c91d5cf309a7cf3.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/bcaa6c7f95dffd72525184ab99e9cdd7.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/bcaa6c7f95dffd72525184ab99e9cdd7.jpg"
-                                _src="http://yanxuan.nosdn.127.net/bcaa6c7f95dffd72525184ab99e9cdd7.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/aa7ee56f7cd9f714f145fcd388d74632.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/aa7ee56f7cd9f714f145fcd388d74632.jpg"
-                                _src="http://yanxuan.nosdn.127.net/aa7ee56f7cd9f714f145fcd388d74632.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/a179c2754b859419523c3440a9f9afe6.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/a179c2754b859419523c3440a9f9afe6.jpg"
-                                _src="http://yanxuan.nosdn.127.net/a179c2754b859419523c3440a9f9afe6.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/adbcd5582c696c85e3cf8a8a573cba05.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/adbcd5582c696c85e3cf8a8a573cba05.jpg"
-                                _src="http://yanxuan.nosdn.127.net/adbcd5582c696c85e3cf8a8a573cba05.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/badd6a12c321d7f5ac57b71dc3a77def.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/badd6a12c321d7f5ac57b71dc3a77def.jpg"
-                                _src="http://yanxuan.nosdn.127.net/badd6a12c321d7f5ac57b71dc3a77def.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/b6cfa05e1a8040f94c3b56db6b84252a.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/b6cfa05e1a8040f94c3b56db6b84252a.jpg"
-                                _src="http://yanxuan.nosdn.127.net/b6cfa05e1a8040f94c3b56db6b84252a.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/8ba41dbf77cc7ce72d3947e3fa27af70.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/8ba41dbf77cc7ce72d3947e3fa27af70.jpg"
-                                _src="http://yanxuan.nosdn.127.net/8ba41dbf77cc7ce72d3947e3fa27af70.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/b00c6180261a9357485c2dc452496a91.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/b00c6180261a9357485c2dc452496a91.jpg"
-                                _src="http://yanxuan.nosdn.127.net/b00c6180261a9357485c2dc452496a91.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/6a8f25728fc4457bd2418743a4672e2f.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/6a8f25728fc4457bd2418743a4672e2f.jpg"
-                                _src="http://yanxuan.nosdn.127.net/6a8f25728fc4457bd2418743a4672e2f.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/4a327ae207e3d8f979aa45cb5b1e412d.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/4a327ae207e3d8f979aa45cb5b1e412d.jpg"
-                                _src="http://yanxuan.nosdn.127.net/4a327ae207e3d8f979aa45cb5b1e412d.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/0b13bc55ceae0c673b3f50ddbbcde3f6.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/0b13bc55ceae0c673b3f50ddbbcde3f6.jpg"
-                                _src="http://yanxuan.nosdn.127.net/0b13bc55ceae0c673b3f50ddbbcde3f6.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/840268c9f9de3c6a1c4e86fb1ea61812.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/840268c9f9de3c6a1c4e86fb1ea61812.jpg"
-                                _src="http://yanxuan.nosdn.127.net/840268c9f9de3c6a1c4e86fb1ea61812.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/89e9bd4d6fed361a55def3a72b1cbaa9.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/89e9bd4d6fed361a55def3a72b1cbaa9.jpg"
-                                _src="http://yanxuan.nosdn.127.net/89e9bd4d6fed361a55def3a72b1cbaa9.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/fc0d4b1be16cce0b9772e7cb495c4b85.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/fc0d4b1be16cce0b9772e7cb495c4b85.jpg"
-                                _src="http://yanxuan.nosdn.127.net/fc0d4b1be16cce0b9772e7cb495c4b85.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/4324c712e2ece3b750087f01956527b8.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/4324c712e2ece3b750087f01956527b8.jpg"
-                                _src="http://yanxuan.nosdn.127.net/4324c712e2ece3b750087f01956527b8.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/38a7b929b8a2d29932d6a5795f057bf6.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/38a7b929b8a2d29932d6a5795f057bf6.jpg"
-                                _src="http://yanxuan.nosdn.127.net/38a7b929b8a2d29932d6a5795f057bf6.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/1563bbe280656f61ef74618ee35dfed5.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/1563bbe280656f61ef74618ee35dfed5.jpg"
-                                _src="http://yanxuan.nosdn.127.net/1563bbe280656f61ef74618ee35dfed5.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/2e15ac4b570f6ae39d99d83fe9db8b48.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/2e15ac4b570f6ae39d99d83fe9db8b48.jpg"
-                                _src="http://yanxuan.nosdn.127.net/2e15ac4b570f6ae39d99d83fe9db8b48.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/38be6e127b282263e27109fe5259900e.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/38be6e127b282263e27109fe5259900e.jpg"
-                                _src="http://yanxuan.nosdn.127.net/38be6e127b282263e27109fe5259900e.jpg"
-                                style=""></p>
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/e7df1f425bda3b79831b7f3286a136be.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/e7df1f425bda3b79831b7f3286a136be.jpg"
-                                _src="http://yanxuan.nosdn.127.net/e7df1f425bda3b79831b7f3286a136be.jpg"
-                                style=""></p>
-
-                            <p><img
-                                data-original="http://yanxuan.nosdn.127.net/fbfeaf6b061c0be98a2cfa544ba59118.jpg"
-                                class="img-lazyload short img-lazyloaded"
-                                src="http://yanxuan.nosdn.127.net/fbfeaf6b061c0be98a2cfa544ba59118.jpg"
-                                _src="http://yanxuan.nosdn.127.net/fbfeaf6b061c0be98a2cfa544ba59118.jpg"
-                                style=""></p>
-                            <p><br></p>
-                            <div class="other j-report-con">
-                                <div class="tt">质检报告</div>
-                                <div class="con">
-                                    <a href="javascript:void(0);" class="img-wrap j-report-zoomout">
-                                        <img src="http://yanxuan.nosdn.127.net/e9f81be6b05f89c430f313b4faf4adb2.jpg" alt="">
-                                        <i class="w-icon-normal icon-normal-detail-zoomout"></i>
-                                        <div class="cover">
-                                            <span class="txt">查看完整报告<i class="w-icon-normal icon-normal-detail-aright"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
+                              <% @product.image.each do |img|%>
+                              <%= image_tag(img.url)%>
+                              <% end %>
                             <div class="other">
                                 <div class="tt">常见问题</div>
                                 <div class="con">
