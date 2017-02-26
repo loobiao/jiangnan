@@ -331,7 +331,43 @@ products = [
 	{title:"鲜果冻 180克（6粒入）",
 	description: "真材实料真水果，满腹经纶满欢喜",
 	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食13.png"},
+	image_path: ["#{Rails.root}/app/assets/images/饮食11-1.png",
+							 "#{Rails.root}/app/assets/images/饮食11-2.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-3.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-4.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-5.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-6.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-7.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-8.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-9.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-10.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-11.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-12.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-13.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-14.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-15.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-16.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-17.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-18.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-19.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-20.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-21.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-22.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-23.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-24.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-25.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-26.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-27.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-28.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-29.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-30.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-31.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-32.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-33.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-34.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-35.jpg",
+							 "#{Rails.root}/app/assets/images/饮食11-36.jpg",]},
+
 
 	{title:"春日落花酥 158克",
 	description: "地道川式花生酥，传承脆香中国味",
@@ -1256,7 +1292,7 @@ p7 = Product.create([title:products[6][:title],description:products[6][:descript
 p8 = Product.create([title:products[7][:title],description:products[7][:description],category:products[7][:category],quantity:rand(1..9) * 100 ,price:29.00,image:products[7][:image_path].map{|file|open(file)}])
 p9 = Product.create([title:products[8][:title],description:products[8][:description],category:products[8][:category],quantity:rand(1..9) * 100 ,price:48.00,image:products[8][:image_path].map{|file|open(file)}])
 p10 = Product.create([title:products[9][:title],description:products[9][:description],category:products[9][:category],quantity:rand(1..9) * 100 ,price:18.00,image:products[9][:image_path].map{|file|open(file)}])
-#p77 = Product.create([title:products[76][:title],description:products[76][:description],category:products[76][:category],quantity:rand(1..9) * 100 ,price:14.00,image:open(products[76][:image_path])])
+p11 = Product.create([title:products[10][:title],description:products[10][:description],category:products[10][:category],quantity:rand(1..9) * 100 ,price:14.00,image:products[10][:image_path].map{|file|open(file)}])
 #p78 = Product.create([title:products[77][:title],description:products[77][:description],category:products[77][:category],quantity:rand(1..9) * 100 ,price:14.90,image:open(products[77][:image_path])])
 #p79 = Product.create([title:products[78][:title],description:products[78][:description],category:products[78][:category],quantity:rand(1..9) * 100 ,price:29.00,image:open(products[78][:image_path])])
 #p80 = Product.create([title:products[79][:title],description:products[79][:description],category:products[79][:category],quantity:rand(1..9) * 100 ,price:11.00,image:open(products[79][:image_path])])
