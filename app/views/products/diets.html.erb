@@ -2,16 +2,47 @@
     <img src="https://ww1.sinaimg.cn/large/006tNc79gy1fcsoagoz5mj30m808cabc.jpg" style="width:400px; height:150px;" alt="">
 </div>
 
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active"> <a href="/products/diets"> <img src="http://yanxuan.nosdn.127.net/3b0d01c71986a29dcd5cc011e7bf91a8.jpg?imageView&quality=95&thumbnail=1920x480" alt="First slide"></a>
+        </div>
+        <div class="item"> <a href="/products/diets"> <img src="http://yanxuan.nosdn.127.net/1cc4447e4314a1f8de6c1c52c828771f.jpg?imageView&quality=95&thumbnail=1920x480" alt="Second slide"></a>
+        </div>
+    </div>
+</div>
+
+<!--时间变量--->
+<script>
+
+    $('.carousel').carousel({interval: 4500})
+</script>
+
+
 <div class="g-bd-list">
     <div class="g-row">
         <!--面包屑-->
-        <div class="m-crumbs ">
+    <!-- <div class="m-crumbs ">
             <a href="/">首页</a>
             <span class="w-icon w-icon-arrow"></span>
             <span class="z-cur">饮食</span>
         </div>
         <!-- 轮播图 -->
-        <div class="m-focus">
+      <!--  <div class="m-focus">
             <div class="focus-bd">
                 <div class="item">
                     <a href="http://you.163.com/yxhdcn/activateUrl?token=ac4668032a490a00181e918d83eb9295&amp;_stat_area=mod_focus_1&amp;_stat_referer=itemList&amp;_stat_id=1005002" target="_blank" title="" class="wrap">
@@ -19,11 +50,11 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--商品展示区域-->
         <div id="j-goodsAreaWrap">
             <div class="m-goodsArea" data-reactid=".0">
-                <div class="m-sortbar" data-reactid=".0.0">
+                <!--<div class="m-sortbar" data-reactid=".0.0">
                     <div class="category" data-reactid=".0.0.0">
                         <span class="name" data-reactid=".0.0.0.0">分类：</span>
                         <a href="javascript:;" class="categoryItem j-categoryItem active" data-reactid=".0.0.0.1:$0">全部</a>
@@ -49,7 +80,7 @@
                         </a>
                         <a href="javascript:;" class="sort sort-default active" data-reactid=".0.0.1.2">默认</a>
                     </div>
-                </div>
+                </div> -->
                 <div class="m-content" data-reactid=".0.1">
                     <div class="m-Level2Category" id="1008015" data-reactid=".0.1.$1008015">
                         <div class="hd" data-reactid=".0.1.$1008015.0">
@@ -542,7 +573,7 @@
                                 <div class="m-product j-product " data-reactid=".0.1.$1005011.1.$1092004.0">
                                     <span data-reactid=".0.1.$1005011.1.$1092004.0.0"></span>
                                     <div class="hd" data-reactid=".0.1.$1005011.1.$1092004.0.1">
-                                        <a href="/item/detail?id=1092004&amp;_stat_area=mod_2_item_10&amp;_stat_id=1005002&amp;_stat_referer=itemList" title="泡泡云朵糖 80克" target="_blank" data-reactid=".0.1.$1005011.1.$1092004.0.1.0"><img
+                                        <a href="/products/13" title="泡泡云朵糖 80克" target="_blank" data-reactid=".0.1.$1005011.1.$1092004.0.1.0"><img
                                             src="http://yanxuan.nosdn.127.net/11d5c2d24b41f14d83912e73cbb19327.png?imageView&amp;quality=95&amp;thumbnail=245x245"
                                             data-original="http://yanxuan.nosdn.127.net/11d5c2d24b41f14d83912e73cbb19327.png?imageView&amp;quality=95&amp;thumbnail=245x245"
                                             alt="泡泡云朵糖 80克"
@@ -578,7 +609,7 @@
                                 <div class="m-product j-product " data-reactid=".0.1.$1005011.1.$1099019.0">
                                     <span data-reactid=".0.1.$1005011.1.$1099019.0.0"></span>
                                     <div class="hd" data-reactid=".0.1.$1005011.1.$1099019.0.1">
-                                        <a href="/item/detail?id=1099019&amp;_stat_area=mod_2_item_11&amp;_stat_id=1005002&amp;_stat_referer=itemList" title="蓬蓬云朵糖 80克" target="_blank" data-reactid=".0.1.$1005011.1.$1099019.0.1.0"><img
+                                        <a href="/products/14" title="蓬蓬云朵糖 80克" target="_blank" data-reactid=".0.1.$1005011.1.$1099019.0.1.0"><img
                                             src="http://yanxuan.nosdn.127.net/4f813662e366867b051ade4b2e39d2c9.png?imageView&amp;quality=95&amp;thumbnail=245x245"
                                             data-original="http://yanxuan.nosdn.127.net/4f813662e366867b051ade4b2e39d2c9.png?imageView&amp;quality=95&amp;thumbnail=245x245"
                                             alt="蓬蓬云朵糖 80克"
