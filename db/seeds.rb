@@ -369,35 +369,41 @@ products = [
 							 "#{Rails.root}/app/assets/images/饮食11-36.jpg",]},
 
 
-	{title:"春日落花酥 158克",
-	description: "地道川式花生酥，传承脆香中国味",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食14.png"},
-
-	{title:"夹心海苔 60克",
-	description: "出口欧美品质，尽享多层海滋味",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食15.png"},
-
-	{title:"有机板栗仁 80克",
-	description: "采撷于承德铁矿石上的有机板栗",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食16.png"},
-
-	{title:"蜂蜜山楂条 135克",
-	description: "山楂与蜂蜜的调和，口感酸甜温润",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食17.png"},
-
-	{title:"蜂蜜山楂雪丽球 140克",
-	description: "酸甜滋味，软糯可口",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食18.png"},
-
 	{title:"冰晶棒棒糖 10克*5",
 	description: "自然结晶，越拌越甜蜜",
 	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食19.png"},
+	image_path: ["#{Rails.root}/app/assets/images/饮食12-1.png",
+							 "#{Rails.root}/app/assets/images/饮食12-2.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-3.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-4.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-5.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-6.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-7.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-8.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-9.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-10.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-11.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-12.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-13.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-14.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-15.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-16.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-17.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-18.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-19.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-20.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-21.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-22.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-23.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-24.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-25.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-26.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-27.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-28.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-29.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-30.jpg",
+							 "#{Rails.root}/app/assets/images/饮食12-31.jpg",]},
+
 
 	{title:"泡泡云朵糖 80克",
 	description: "入口绵软，咀嚼成胶，童趣十足",
@@ -1293,7 +1299,7 @@ p8 = Product.create([title:products[7][:title],description:products[7][:descript
 p9 = Product.create([title:products[8][:title],description:products[8][:description],category:products[8][:category],quantity:rand(1..9) * 100 ,price:48.00,image:products[8][:image_path].map{|file|open(file)}])
 p10 = Product.create([title:products[9][:title],description:products[9][:description],category:products[9][:category],quantity:rand(1..9) * 100 ,price:18.00,image:products[9][:image_path].map{|file|open(file)}])
 p11 = Product.create([title:products[10][:title],description:products[10][:description],category:products[10][:category],quantity:rand(1..9) * 100 ,price:14.00,image:products[10][:image_path].map{|file|open(file)}])
-#p78 = Product.create([title:products[77][:title],description:products[77][:description],category:products[77][:category],quantity:rand(1..9) * 100 ,price:14.90,image:open(products[77][:image_path])])
+p12 = Product.create([title:products[11][:title],description:products[11][:description],category:products[11][:category],quantity:rand(1..9) * 100 ,price:24.90,image:products[11][:image_path].map{|file|open(file)}])
 #p79 = Product.create([title:products[78][:title],description:products[78][:description],category:products[78][:category],quantity:rand(1..9) * 100 ,price:29.00,image:open(products[78][:image_path])])
 #p80 = Product.create([title:products[79][:title],description:products[79][:description],category:products[79][:category],quantity:rand(1..9) * 100 ,price:11.00,image:open(products[79][:image_path])])
 #p81 = Product.create([title:products[80][:title],description:products[80][:description],category:products[80][:category],quantity:rand(1..9) * 100 ,price:13.00,image:open(products[80][:image_path])])
