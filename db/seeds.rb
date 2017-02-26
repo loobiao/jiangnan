@@ -466,20 +466,28 @@ products = [
 							 "#{Rails.root}/app/assets/images/饮食14-22.jpg",
 							 "#{Rails.root}/app/assets/images/饮食14-23.jpg",]},
 
-	{title:"风琴鱿鱼片 125克",
-	description: "丝丝入扣，鲜嫩爽弹",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食22.png"},
 
-	{title:"香烤鱼片 125克",
-	description: "优质安康鱼经天然果木熏烤",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食23.png"},
 
 	{title:"脆脆虾 20克",
 	description: "整虾可食，口口香脆",
 	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食24.png"},
+	image_path: ["#{Rails.root}/app/assets/images/饮食15-1.png",
+							 "#{Rails.root}/app/assets/images/饮食15-2.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-3.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-4.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-5.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-6.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-7.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-8.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-9.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-10.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-11.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-12.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-13.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-14.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-15.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-17.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-18.jpg",]},
 
 	{title:"香烤小黄鱼 125克",
 	description: "酥脆紧致，鲜美可口",
@@ -1353,7 +1361,7 @@ p11 = Product.create([title:products[10][:title],description:products[10][:descr
 p12 = Product.create([title:products[11][:title],description:products[11][:description],category:products[11][:category],quantity:rand(1..9) * 100 ,price:24.90,image:products[11][:image_path].map{|file|open(file)}])
 p13 = Product.create([title:products[12][:title],description:products[12][:description],category:products[12][:category],quantity:rand(1..9) * 100 ,price:9.90,image:products[12][:image_path].map{|file|open(file)}])
 p14 = Product.create([title:products[13][:title],description:products[13][:description],category:products[13][:category],quantity:rand(1..9) * 100 ,price:9.90,image:products[13][:image_path].map{|file|open(file)}])
-#p81 = Product.create([title:products[80][:title],description:products[80][:description],category:products[80][:category],quantity:rand(1..9) * 100 ,price:13.00,image:open(products[80][:image_path])])
+p15 = Product.create([title:products[14][:title],description:products[14][:description],category:products[14][:category],quantity:rand(1..9) * 100 ,price:18.00,image:products[14][:image_path].map{|file|open(file)}])
 #p82 = Product.create([title:products[81][:title],description:products[81][:description],category:products[81][:category],quantity:rand(1..9) * 100 ,price:12.90,image:open(products[81][:image_path])])
 #p83 = Product.create([title:products[82][:title],description:products[82][:description],category:products[82][:category],quantity:rand(1..9) * 100 ,price:24.90,image:open(products[82][:image_path])])
 #p84 = Product.create([title:products[83][:title],description:products[83][:description],category:products[83][:category],quantity:rand(1..9) * 100 ,price:9.90,image:open(products[83][:image_path])])

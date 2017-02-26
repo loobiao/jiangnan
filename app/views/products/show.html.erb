@@ -393,23 +393,23 @@
 
                     <table class="table">
 
-   <tbody>
-     <% @posts.each do |post| %>
-       <tr>
-         <td><%= post.content %></td>
-         <td> <%if post.user.avatar.present?%>
-               <%= image_tag(post.user.avatar.url(:thumb), class: "round-image-25") %>
-               <%= post.user.nickname%>
-            <% else %>
-           <%= post.user.email %>
-           <% end %>
-         </td>
+                        <tbody>
+                          <% @posts.each do |post| %>
+                          <tr>
+                            <td><%= post.content %></td>
+                            <td> <%if post.user.avatar.present?%>
+                              <%= image_tag(post.user.avatar.url(:thumb), class: "round-image-25") %>
+                              <%= post.user.nickname%>
+                              <% else %>
+                              <%= post.user.email %>
+                              <% end %>
+                            </td>
 
-         <td><%= post.created_at %></td>
-       </tr>
-     <% end %>
-   </tbody>
- </table>
+                            <td><%= post.created_at %></td>
+                          </tr>
+                          <% end %>
+                        </tbody>
+                      </table>
 
                     <div class="detail-html j-nav-con j-nav-html">
                         <ul id="j-attrList" class="m-attrList" style="visibility: visible;">
