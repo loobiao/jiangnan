@@ -458,6 +458,7 @@ products = [
 							 "#{Rails.root}/app/assets/images/饮食14-13.jpg",
 							 "#{Rails.root}/app/assets/images/饮食14-14.jpg",
 							 "#{Rails.root}/app/assets/images/饮食14-15.jpg",
+							 "#{Rails.root}/app/assets/images/饮食14-16.jpg",
 							 "#{Rails.root}/app/assets/images/饮食14-17.jpg",
 							 "#{Rails.root}/app/assets/images/饮食14-18.jpg",
 							 "#{Rails.root}/app/assets/images/饮食14-19.jpg",
@@ -486,163 +487,130 @@ products = [
 							 "#{Rails.root}/app/assets/images/饮食15-13.jpg",
 							 "#{Rails.root}/app/assets/images/饮食15-14.jpg",
 							 "#{Rails.root}/app/assets/images/饮食15-15.jpg",
+							 "#{Rails.root}/app/assets/images/饮食15-16.jpg",
 							 "#{Rails.root}/app/assets/images/饮食15-17.jpg",
 							 "#{Rails.root}/app/assets/images/饮食15-18.jpg",]},
 
-	{title:"香烤小黄鱼 125克",
-	description: "酥脆紧致，鲜美可口",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食25.png"},
-
-	{title:"鱿鱼丝 100克",
-	description: "新鲜鱿鱼拉松撕制，肉质柔韧有嚼劲",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食26.png"},
-
-	{title:"猪肉脯 150克",
-	description: "猪后腿肉精制，不添加防腐剂",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食27.png"},
-
-	{title:"球形爆米花 150克",
-	description: "精选玉米，颗颗尽是甜蜜",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食28.png"},
-
-	{title:"冻干水果礼盒 185克",
-	description: "六种冻干水果，缤纷你的生活",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食29.png"},
-
-	{title:"冻干榴莲脆 40克",
-	description: "泰国进口的金枕头榴莲，浓香软滑",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食30.png"},
 
 	{title:"综合果蔬脆 100克",
 	description: "6种果蔬酸甜荟萃，色香味俱全",
 	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食31.png"},
+	image_path: ["#{Rails.root}/app/assets/images/饮食16-1.png",
+							 "#{Rails.root}/app/assets/images/饮食16-2.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-3.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-4.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-5.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-6.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-7.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-8.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-9.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-10.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-11.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-12.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-13.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-14.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-15.jpg",
+						   "#{Rails.root}/app/assets/images/饮食16-16.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-17.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-18.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-19.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-20.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-21.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-22.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-23.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-24.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-25.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-26.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-27.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-28.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-29.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-30.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-31.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-32.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-33.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-34.jpg",
+							 "#{Rails.root}/app/assets/images/饮食16-35.jpg",]},
 
 	{title:"冻干混合水果脆 25克",
 	description: "唇齿之间 尽是浓浓果香",
 	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食32.png"},
+	image_path: ["#{Rails.root}/app/assets/images/饮食17-1.png",
+							 "#{Rails.root}/app/assets/images/饮食17-2.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-3.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-4.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-5.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-6.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-7.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-8.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-9.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-10.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-11.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-12.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-13.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-14.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-15.jpg",
+							 "#{Rails.root}/app/assets/images/饮食17-16.jpg",]},
 
-	{title:"薯条脆 65克",
-	description: "美味不油腻，营养更健康",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食33.png"},
-
-	{title:"综合水果脆片 100克",
-	description: "缤纷水果，尽是清脆",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食34.png"},
-
-	{title:"综合菇菜脆片 100克",
-	description: "有菇有菜，颜值营养两不误",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食35.png"},
-
-	{title:"冻干苹果脆 30克",
-	description: "冻干红富士，香脆苹果味",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食36.png"},
 
 	{title:"冻干芒果脆 20克",
 	description: "美味芒果，增添清晨活力",
 	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食37.png"},
+	image_path: ["#{Rails.root}/app/assets/images/饮食18-1.png",
+							 "#{Rails.root}/app/assets/images/饮食18-2.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-3.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-4.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-5.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-6.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-7.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-8.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-9.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-10.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-11.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-12.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-13.jpg",
+							 "#{Rails.root}/app/assets/images/饮食18-14.jpg",]},
 
-	{title:"冻干黄桃脆 30克",
-	description: "酸甜黄桃，激发味蕾",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食38.png"},
-
-	{title:"冻干香蕉脆 40克",
-	description: "-30°C真空冻干，水果新吃法",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食39.png"},
-
-	{title:"香菇脆片 90克",
-	description: "高蛋白、低脂肪，食之浓香沁脾",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食40.png"},
-
-	{title:"黄秋葵脆片 70克",
-	description: "独特粘液，脆片滑而不腻",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食41.png"},
-
-	{title:"小香菇脆 70克",
-	description: "真空低温脱水，留住原色原香",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食42.png"},
-
-	{title:"敏豆脆 45克",
-	description: "酥脆敏豆真空脱水，留下自然苍翠色",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食43.png"},
-
-	{title:"绿鸡心葡萄干 135克",
-	description: "优选新疆好果，软糯壮实，甜蜜鲜醇",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食44.png"},
-
-	{title:"黑加仑葡萄干 135克",
-	description: "晾房阴干锁住葡萄干天然水分",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食45.png"},
-
-	{title:"蓝莓果干 80克",
-	description: "清爽蓝莓，味觉盛宴",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食46.png"},
-
-	{title:"芒果干 118克",
-	description: "海南新鲜澳芒，肉质细腻",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食47.png"},
-
-	{title:"无核西梅 100克",
-	description: "阳光西梅，品尝加州自然美味",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食48.png"},
-
-	{title:"酵素梅 100克",
-	description: "入口酸甜，悠悠梅香",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食49.png"},
-
-	{title:"萝卜脆 70克",
-	description: "萝卜汁多且甜，脆片清爽可口",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食50.png"},
-
-	{title:"蔬菜脆 70克",
-	description: "8种蔬菜汇聚成营养盛宴",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食51.png"},
-
-	{title:"苹果脆片 100克",
-	description: "酸甜有度，最是苹果",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食52.png"},
-
-	{title:"南瓜脆片 100克",
-	description: "金黄南瓜，原色原味",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食53.png"},
-
-	{title:"红枣脆 100克",
-	description: "金丝红枣，养心悦色",
-	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食54.png"},
 
 	{title:"冻干草莓粒 30克",
 	description: "完整颗粒，有颜有营养",
 	category: "diets",
-	image_path: "#{Rails.root}/app/assets/images/饮食55.png"},
+	image_path: ["#{Rails.root}/app/assets/images/饮食19-1.png",
+							 "#{Rails.root}/app/assets/images/饮食19-2.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-3.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-4.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-5.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-6.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-7.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-8.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-9.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-10.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-11.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-12.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-13.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-14.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-15.jpg",
+						   "#{Rails.root}/app/assets/images/饮食19-16.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-17.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-18.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-19.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-20.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-21.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-22.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-23.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-24.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-25.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-26.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-27.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-28.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-29.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-30.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-31.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-32.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-33.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-34.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-35.jpg",
+							 "#{Rails.root}/app/assets/images/饮食19-36.jpg",]},
+
 
 	{title:"混合果仁 210克",
 	description: "随身能量包，生活添动力",
@@ -1362,6 +1330,20 @@ p12 = Product.create([title:products[11][:title],description:products[11][:descr
 p13 = Product.create([title:products[12][:title],description:products[12][:description],category:products[12][:category],quantity:rand(1..9) * 100 ,price:9.90,image:products[12][:image_path].map{|file|open(file)}])
 p14 = Product.create([title:products[13][:title],description:products[13][:description],category:products[13][:category],quantity:rand(1..9) * 100 ,price:9.90,image:products[13][:image_path].map{|file|open(file)}])
 p15 = Product.create([title:products[14][:title],description:products[14][:description],category:products[14][:category],quantity:rand(1..9) * 100 ,price:18.00,image:products[14][:image_path].map{|file|open(file)}])
+p16 = Product.create([title:products[15][:title],description:products[15][:description],category:products[15][:category],quantity:rand(1..9) * 100 ,price:19.00,image:products[15][:image_path].map{|file|open(file)}])
+p17 = Product.create([title:products[16][:title],description:products[16][:description],category:products[16][:category],quantity:rand(1..9) * 100 ,price:12.00,image:products[16][:image_path].map{|file|open(file)}])
+p18 = Product.create([title:products[17][:title],description:products[17][:description],category:products[17][:category],quantity:rand(1..9) * 100 ,price:13.00,image:products[17][:image_path].map{|file|open(file)}])
+p19 = Product.create([title:products[18][:title],description:products[18][:description],category:products[18][:category],quantity:rand(1..9) * 100 ,price:16.00,image:products[18][:image_path].map{|file|open(file)}])
+#p20 = Product.create([title:products[19][:title],description:products[19][:description],category:products[19][:category],quantity:rand(1..9) * 100 ,price:349.00,image:open(products[19][:image_path])])
+#p21 = Product.create([title:products[20][:title],description:products[20][:description],category:products[20][:category],quantity:rand(1..9) * 100 ,price:59.00,image:open(products[20][:image_path])])
+#p22 = Product.create([title:products[21][:title],description:products[21][:description],category:products[21][:category],quantity:rand(1..9) * 100 ,price:89.00,image:open(products[21][:image_path])])
+#p23 = Product.create([title:products[22][:title],description:products[22][:description],category:products[22][:category],quantity:rand(1..9) * 100 ,price:239.00,image:open(products[22][:image_path])])
+#p24 = Product.create([title:products[23][:title],description:products[23][:description],category:products[23][:category],quantity:rand(1..9) * 100 ,price:259.00,image:open(products[23][:image_path])])
+#p25 = Product.create([title:products[24][:title],description:products[24][:description],category:products[24][:category],quantity:rand(1..9) * 100 ,price:129.00,image:open(products[24][:image_path])])
+#p26 = Product.create([title:products[25][:title],description:products[25][:description],category:products[25][:category],quantity:rand(1..9) * 100 ,price:199.00,image:open(products[25][:image_path])])
+#p27 = Product.create([title:products[26][:title],description:products[26][:description],category:products[26][:category],quantity:rand(1..9) * 100 ,price:229.00,image:open(products[26][:image_path])])
+#p28 = Product.create([title:products[27][:title],description:products[27][:description],category:products[27][:category],quantity:rand(1..9) * 100 ,price:1999.00,image:open(products[27][:image_path])])
+#p29 = Product.create([title:products[28][:title],description:products[28][:description],category:products[28][:category],quantity:rand(1..9) * 100 ,price:2399.00,image:open(products[28][:image_path])])
 #p82 = Product.create([title:products[81][:title],description:products[81][:description],category:products[81][:category],quantity:rand(1..9) * 100 ,price:12.90,image:open(products[81][:image_path])])
 #p83 = Product.create([title:products[82][:title],description:products[82][:description],category:products[82][:category],quantity:rand(1..9) * 100 ,price:24.90,image:open(products[82][:image_path])])
 #p84 = Product.create([title:products[83][:title],description:products[83][:description],category:products[83][:category],quantity:rand(1..9) * 100 ,price:9.90,image:open(products[83][:image_path])])
@@ -1424,19 +1406,7 @@ p15 = Product.create([title:products[14][:title],description:products[14][:descr
 #p144 = Product.create([title:products[143][:title],description:products[143][:description],category:products[143][:category],quantity:rand(1..9) * 100 ,price:188.00,image:open(products[143][:image_path])])
 #p145 = Product.create([title:products[144][:title],description:products[144][:description],category:products[144][:category],quantity:rand(1..9) * 100 ,price:228.00,image:open(products[144][:image_path])])
 
-#p2 = Product.create([title:products[1][:title],description:products[1][:description],category:products[1][:category],quantity:rand(1..9) * 100 ,price:139.00,image:open(products[1][:image_path])])
-#p3 = Product.create([title:products[2][:title],description:products[2][:description],category:products[2][:category],quantity:rand(1..9) * 100 ,price:69.00,image:open(products[2][:image_path])])
-#p4 = Product.create([title:products[3][:title],description:products[3][:description],category:products[3][:category],quantity:rand(1..9) * 100 ,price:49.00,image:open(products[3][:image_path])])
-#p5 = Product.create([title:products[4][:title],description:products[4][:description],category:products[4][:category],quantity:rand(1..9) * 100 ,price:99.00,image:open(products[4][:image_path])])
-#p6 = Product.create([title:products[5][:title],description:products[5][:description],category:products[5][:category],quantity:rand(1..9) * 100 ,price:129.00,image:open(products[5][:image_path])])
-#p7 = Product.create([title:products[6][:title],description:products[6][:description],category:products[6][:category],quantity:rand(1..9) * 100 ,price:79.00,image:open(products[6][:image_path])])
-#p8 = Product.create([title:products[7][:title],description:products[7][:description],category:products[7][:category],quantity:rand(1..9) * 100 ,price:29.00,image:open(products[7][:image_path])])
-#p9 = Product.create([title:products[8][:title],description:products[8][:description],category:products[8][:category],quantity:rand(1..9) * 100 ,price:49.00,image:open(products[8][:image_path])])
-#p10 = Product.create([title:products[9][:title],description:products[9][:description],category:products[9][:category],quantity:rand(1..9) * 100 ,price:79.00,image:open(products[9][:image_path])])
-#p11 = Product.create([title:products[10][:title],description:products[10][:description],category:products[10][:category],quantity:rand(1..9) * 100 ,price:49.00,image:open(products[10][:image_path])])
-#p12 = Product.create([title:products[11][:title],description:products[11][:description],category:products[11][:category],quantity:rand(1..9) * 100 ,price:49.00,image:open(products[11][:image_path])])
-#p13 = Product.create([title:products[12][:title],description:products[12][:description],category:products[12][:category],quantity:rand(1..9) * 100 ,price:69.00,image:open(products[12][:image_path])])
-#p14 = Product.create([title:products[13][:title],description:products[13][:description],category:products[13][:category],quantity:rand(1..9) * 100 ,price:59.00,image:open(products[13][:image_path])])
+
 #p15 = Product.create([title:products[14][:title],description:products[14][:description],category:products[14][:category],quantity:rand(1..9) * 100 ,price:69.00,image:open(products[14][:image_path])])
 #p16 = Product.create([title:products[15][:title],description:products[15][:description],category:products[15][:category],quantity:rand(1..9) * 100 ,price:29.00,image:open(products[15][:image_path])])
 #p17 = Product.create([title:products[16][:title],description:products[16][:description],category:products[16][:category],quantity:rand(1..9) * 100 ,price:199.00,image:open(products[16][:image_path])])
