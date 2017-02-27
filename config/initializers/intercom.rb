@@ -111,8 +111,8 @@ IntercomRails.config do |config|
   #
   # If you'd like to hide default launcher button uncomment this line
   # config.hide_default_launcher = true
-  config.include_for_logged_out_users = true #保证游客可以随时咨询
-  config.user.current = Proc.new { current_user_object } #针对我们所用的devise这个gem，发现不加入这句，用户登录后对话框会消失
-  config.session_duration = 5 * 60 * 10000
+  config.include_for_logged_out_users = true
+  config.user.current = Proc.new { current_user_object }
   config.api_secret = Rails.application.secrets.intercom_secure_mode_secret_key
+
 end
