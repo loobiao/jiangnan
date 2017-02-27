@@ -1,3 +1,9 @@
+<div align="center">
+  <a href="/">  <img src="https://ww1.sinaimg.cn/large/006tNc79gy1fcsoagoz5mj30m808cabc.jpg"  style="width:400px; height:150px;" alt=""></a>
+</div>
+
+<div class="g-detail">
+    <div class="g-bd">
 <div class="row">
   <div class="col-md-12">
 
@@ -24,7 +30,7 @@
             <td>
               <%= link_to product_path(cart_item.product) do %>
                 <% if cart_item.product.image.present? %>
-                
+
                   <%= image_tag(cart_item.product.image[0].thumb.url, class: "thumbnail") %>
                 <% else %>
                   <%= image_tag("http://placehold.it/200x200&text=No Pic", class: "thumbnail") %>
@@ -65,10 +71,12 @@
       </span>
     </div>
 
-    <hr>
+  
 
     <div class="checkout clearfix">
       <%= link_to("确认结账", checkout_carts_path, method: :post, class: "btn btn-lg btn-danger pull-right") %>
     </div>
   </div>
+</div>
+</div>
 </div>
