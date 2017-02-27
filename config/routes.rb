@@ -30,7 +30,11 @@ Rails.application.routes.draw do
     end
 
 
-  devise_for :users
+    devise_for :users, :controllers => {
+      :sessions      => "users/sessions",
+      :registrations => "users/registrations",
+      :passwords     => "users/passwords",
+    }
   root 'welcome#index'
   resources :cart_items
 
