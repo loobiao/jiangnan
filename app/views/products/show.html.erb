@@ -123,8 +123,11 @@
                     </div>  -->
                     <div class="tips j-tips f-hide"></div>
                     <div class="number u-formctr">
-                        <span class="name name-1">数量</span>
+                        <span class="name name-1" >数量</span>
                          <span class="name name-1"> <%= @product.quantity %></span>
+                    </div>
+                    <div class="number u-formctr">
+                      <%= social_share_button_tag(@product.title) %>
                     </div>
                     <div class="btns">
 
@@ -150,11 +153,14 @@
                                 <div class="bottom bottom-2">
                                     <p class="textTwo">已收藏</p>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
             <!-- 推荐商品 -->
           <!--  <div class="recommend-container">
                 <div class="bd">

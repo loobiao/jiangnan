@@ -12,11 +12,25 @@
  *
  *= require_tree .
  *= require_self
+ *= require social-share-button
  */
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+@import "social-share-button";
+
+//--社交分享---
+$size: 28px;
+
+div.social-share-button {
+  .ssb-icon {
+    background-size: $size $size;
+    height: $size;
+    width: $size;
+    margin-right: 15px;
+  }
+}
 
 
 //--回到顶部---
