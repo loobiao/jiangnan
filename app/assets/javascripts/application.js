@@ -17,7 +17,8 @@
 //= require bootstrap/dropdown
 //= require bootstrap/modal
 //= require_tree .
-
+//= require social-share-button
+//= require social-share-button/wechat
 /*
 	Add to cart fly effect with jQuery. - May 05, 2013
 	(c) 2013 @ElmahdiMahmoud - fikra-masri.by
