@@ -40,7 +40,10 @@ gem 'aasm'
 gem 'figaro'
 gem "fog-aws"
 gem "will_paginate-bootstrap"
+
 gem 'social-share-button'
+
+gem "intercom-rails"
 
 
 group :development, :test do
