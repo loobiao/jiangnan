@@ -422,12 +422,8 @@
                           <% @posts.each do |post| %>
                           <tr>
                             <td><%= post.content %></td>
-                            <td> <%if post.user.avatar.present?%>
-                              <%= image_tag(post.user.avatar.url(:thumb), class: "round-image-25") %>
-                              <%= post.user.nickname%>
-                              <% else %>
+                            <td> 
                               <%= post.user.email %>
-                              <% end %>
                             </td>
 
                             <td><%= post.created_at %></td>

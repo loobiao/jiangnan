@@ -27,11 +27,13 @@
                             <p class="desc" data-reactid=".0.1.$1008015.0.1">美味让生活如此多娇</p>
                         </div>
 
+
                         <% @products.each do |product|%>
                           <p><%= link_to(product.title, product_path(product)) %></p>
                           <p><%= product.description %></p>
                           <hr>
                         <% end %>
+
 
                     </div>
                 </div>
