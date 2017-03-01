@@ -28,26 +28,7 @@
                       <%= image_tag(@product.image[0].url) %>
 
                     </div>
-                  <!--  <div class="list j-sthumbs">
-                        <ul>
-                            <li class="">
-                                <a href="javascript:;"><%= image_tag(@product.image[0].url) %> alt="鼠标悬停切换"></a>
-                            </li>
-                            <li class="">
-                                <a href="javascript:;"><%= image_tag(@product.image[1].url) %> alt="鼠标悬停切换"></a>
-                            </li>
-                            <li class="">
-                                <a href="javascript:;"><%= image_tag(@product.image[3].url) %> alt="鼠标悬停切换"></a>
-                            </li>
-                            <li class="">
-                                <a href="javascript:;"><%= image_tag(@product.image[6].url) %> alt="鼠标悬停切换"></a>
-                            </li>
-                            <li class="">
-                                <a href="javascript:;"><%= image_tag(@product.image[7].url) %> alt="鼠标悬停切换"></a>
-                            </li>
 
-                        </ul>
-                    </div> -->
                 </div>
                 <div class="info">
                     <div class="intro">
@@ -103,24 +84,7 @@
                             <div style="clear:both"></div>
                         </div>
                     </div>
-                    <!-- 价格信息end -->
-                  <!--     <div class="j-param">
-                        <div class="param u-formctr">
-                            <span class="name name-2">尺寸</span>
-                            <div class="field field-1">
-                                <ul class="m-tabs">
-                                    <li class="tab-con">
-                                        <a href="javascript:void(0);" class="tab tab-pic tab-sel" data-id="1033047" data-url="http://yanxuan.nosdn.127.net/b63fdb321bac3a2eb6f2157df334cbf2.png">
-                                            <img src="http://yanxuan.nosdn.127.net/b63fdb321bac3a2eb6f2157df334cbf2.png?imageView&amp;thumbnail=50x50&amp;quality=95" alt="">
-                                            <i class="w-icon-normal icon-normal-spec-arrow sel"></i>
-                                            <div class="dis"></div>
-                                            <div class="title" style="display: none;">34*78cm</div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>  -->
+
                     <div class="tips j-tips f-hide"></div>
                     <div class="number u-formctr">
                         <span class="name name-1" >数量</span>
@@ -141,38 +105,23 @@
                     <br>
                     <br>
 
-
-                        <div>
-                          <% if !current_user.has_collected?(@product) %>
- 						                <%= link_to collect_product_path(@product), :class => "like btn btn-default",method: :post do %>
- 						                  <i class="fa fa-heart" aria-hidden="true"></i>
- 							              <% end %>
- 						              <% else %>
- 							              <%= link_to discollect_product_path(@product), :class => "like btn btn-default",method: :post do %>
- 							                <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i>
- 							              <% end %>
- 						              <% end %>
-
-                      <div class="w-collectZone nopCollect j-collectBtn" title="点击收藏">
-                            <div class="zone-1">
-                                <div class="top top-1">
-                                    <span class="w-icon-normal icon-normal-collectEpt"></span>
-                                </div>
-                                <div class="top top-2">
-                                    <span class="w-icon-normal icon-normal-collectFull"></span>
-                                </div>
-                            </div>
-                            <div class="zone-2">
-                                <div class="bottom bottom-1">
-                                    <p class="textOne">收藏</p>
-                                </div>
-                                <div class="bottom bottom-2">
-                                    <p class="textTwo">已收藏</p>
-                                </div>
-                            </div>-->
-
-                        </div>
-
+                    <div>
+                      <% if user_signed_in? %>
+                        <% if !current_user.has_collected?(@product) %>
+                          <%= link_to collect_product_path(@product), :class => "like btn btn-default", method: :post do %>
+                           <i class="fa fa-heart fa-lg" aria-hidden="true"></i>
+                          <% end %>
+                        <% else %>
+                          <%= link_to discollect_product_path(@product), :class => "like btn btn-default", method: :post do %>
+                            <i class="fa fa-heart fa-lg" aria-hidden="true" style="color:red;"></i>
+                          <% end %>
+                        <% end %>
+                      <% else %>
+                        <%= link_to collect_product_path(@product), :class => "like btn btn-default", method: :post do %>
+                          <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                        <% end %>
+                      <% end %>
+                    </div>
                 </div>
             </div>
 
@@ -422,7 +371,7 @@
                           <% @posts.each do |post| %>
                           <tr>
                             <td><%= post.content %></td>
-                            <td> 
+                            <td>
                               <%= post.user.email %>
                             </td>
 
