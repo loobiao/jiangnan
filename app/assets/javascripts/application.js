@@ -14,11 +14,26 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
-
+//= require social-share-button
+//= require social-share-button/wechat
 /*
 	Add to cart fly effect with jQuery. - May 05, 2013
 	(c) 2013 @ElmahdiMahmoud - fikra-masri.by
 	license: http://www.opensource.org/licenses/mit-license.php
 */
 
+
 $('.carousel').carousel({interval: 4500})
+
+$(document).on('click', '#gotop', function () {
+  $('body').animate({'scrollTop': 0}, 500) //在500ms的时间内，慢慢地回到顶部
+})
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 500) {
+    $('#gotop').fadeIn() // 当页面向下滚动的距离大于500px时，慢慢地显示「回到顶部按钮」
+  } else {
+    $('#gotop').fadeOut() // 否则慢慢地隐藏「回到顶部按钮」
+  }
+})
+
