@@ -12,10 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require bootstrap/alert
-//= require bootstrap/dropdown
-//= require bootstrap/modal
+//= require bootstrap-sprockets
 //= require_tree .
 
 /*
@@ -23,3 +20,5 @@
 	(c) 2013 @ElmahdiMahmoud - fikra-masri.by
 	license: http://www.opensource.org/licenses/mit-license.php
 */
+
+$('.carousel').carousel({interval: 4500})
