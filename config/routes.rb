@@ -16,6 +16,8 @@ Rails.application.routes.draw do
     resources :products do
       member do
         post :add_to_cart
+        post :collect
+        post :discollect
       end
       collection do
         get :uchino
@@ -55,5 +57,6 @@ Rails.application.routes.draw do
 
    namespace :account do
     resources :orders
+    resources :collections
   end
 end

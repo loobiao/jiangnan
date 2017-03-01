@@ -12,10 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require bootstrap/alert
-//= require bootstrap/dropdown
-//= require bootstrap/modal
+//= require bootstrap-sprockets
 //= require_tree .
 //= require social-share-button
 //= require social-share-button/wechat
@@ -24,6 +21,9 @@
 	(c) 2013 @ElmahdiMahmoud - fikra-masri.by
 	license: http://www.opensource.org/licenses/mit-license.php
 */
+
+
+$('.carousel').carousel({interval: 4500})
 
 $(document).on('click', '#gotop', function () {
   $('body').animate({'scrollTop': 0}, 500) //在500ms的时间内，慢慢地回到顶部
@@ -36,3 +36,4 @@ $(window).scroll(function () {
     $('#gotop').fadeOut() // 否则慢慢地隐藏「回到顶部按钮」
   }
 })
+

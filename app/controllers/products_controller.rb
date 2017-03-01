@@ -46,4 +46,30 @@ class ProductsController < ApplicationController
     end
     redirect_to :back
   end
+
+  def collect
+    @product = Product.find(params[:id])
+
+    if !current_user.has_collected?(@product)
+      current_user.collect!(@product)
+      flash[:notice] = "好喜欢，已收藏!"
+    else
+      flash[:warning] = "该商品您已收藏过了哦，不可以重复收藏～"
+    end
+
+    redirect_to product_path(@product)
+  end
+
+  def discollect
+    @product = Product.find(params[:id])
+
+    if current_user.has_collected?(@product)
+      current_user.discollect!(@product)
+      flash[:alert] = "暂时不喜欢，取消收藏。"
+    else
+      flash[:warning] = "您还没收藏，不能取消收藏哦～"
+    end
+
+    redirect_to product_path(@product)
+  end
 end

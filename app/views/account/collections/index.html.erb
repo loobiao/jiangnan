@@ -1,0 +1,41 @@
+<div align="center">
+  <a href="/">  <img src="https://ww1.sinaimg.cn/large/006tNc79gy1fcsoagoz5mj30m808cabc.jpg"  style="width:400px; height:150px;" alt=""></a>
+</div>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<hr>
+
+
+
+<div class="g-bd-list">
+    <div class="g-row">
+        <div id="j-goodsAreaWrap">
+            <div class="m-goodsArea" data-reactid=".0">
+                <div class="m-content" data-reactid=".0.1">
+                    <div class="m-Level2Category" id="1008015" data-reactid=".0.1.$1008015">
+                        <div class="hd" data-reactid=".0.1.$1008015.0">
+                            <p class="title f-clearfix" data-reactid=".0.1.$1008015.0.0"><img class="icon w-icon-44 f-left" src="http://yanxuan.nosdn.127.net/93168242df456b5f7bf3c89653b3db76.png" data-reactid=".0.1.$1008015.0.0.0">
+                                <span class="name f-left" data-reactid=".0.1.$1008015.0.0.1">我喜欢的宝贝收藏</span>
+                            </p>
+                            <hr>
+                            <p class="desc" data-reactid=".0.1.$1008015.0.1">美味让生活如此多娇</p>
+                        </div>
+
+                        <% @products.each do |product|%>
+                          <p><%= link_to(product.title, product_path(product)) %></p>
+                          <p><%= product.description %></p>
+                          <hr>
+                        <% end %>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
