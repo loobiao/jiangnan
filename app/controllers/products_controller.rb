@@ -52,9 +52,9 @@ class ProductsController < ApplicationController
 
     if !current_user.has_collected?(@product)
       current_user.collect!(@product)
-      flash[:notice] = "You've successfully collected the skill!"
+      flash[:notice] = "好喜欢，已收藏!"
     else
-      flash[:warning] = "You've already collected the skill!"
+      flash[:warning] = "该商品您已收藏过了哦，不可以重复收藏～"
     end
 
     redirect_to product_path(@product)
@@ -65,9 +65,9 @@ class ProductsController < ApplicationController
 
     if current_user.has_collected?(@product)
       current_user.discollect!(@product)
-      flash[:alert] = "You've successfully discollected the skill!"
+      flash[:alert] = "暂时不喜欢，取消收藏。"
     else
-      flash[:warning] = "You haven't collected the skill yet!"
+      flash[:warning] = "您还没收藏，不能取消收藏哦～"
     end
 
     redirect_to product_path(@product)
