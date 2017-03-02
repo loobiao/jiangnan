@@ -36,4 +36,3 @@ $(window).scroll(function () {
     $('#gotop').fadeOut() // 否则慢慢地隐藏「回到顶部按钮」
   }
 })
-
