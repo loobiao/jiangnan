@@ -1,5 +1,5 @@
 class Product < ApplicationRecord
-  serialize :image
+  #serialize :image
   mount_uploaders :image, ImageUploader
   has_many :posts
   has_many :product_relationships
