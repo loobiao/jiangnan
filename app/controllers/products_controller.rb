@@ -1,4 +1,5 @@
 class ProductsController < ApplicationController
+  before_action :authenticate_user!, only:[:collect, :discollect]
   def index
     @products = Product.all
   end
