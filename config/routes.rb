@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :comments
-  root 'products#diets'
+  root 'welcome#index'
   namespace :admin do
     resources :products
     resources :orders do
